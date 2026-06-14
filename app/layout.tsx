@@ -1,14 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Pacifico } from "next/font/google";
+import { Pacifico, Ruthie } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const ruthie = Ruthie({
+  weight: "400",
+  variable: "--font-ruthie",
   subsets: ["latin"],
 });
 
@@ -25,13 +21,13 @@ interface IProps {
 export const metadata: Metadata = {
   title: "Purelane Shop",
   description: "E-commerce website for personal business",
-  icons: { icon: "/favicon.svg" }
+  icons: { icon: "/favicon.png" },
 };
 
 export default function RootLayout({ children }: Readonly<IProps>) {
   return (
     <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} antialiased`}>
+      <body className={`${ruthie.variable} ${pacifico.variable} antialiased`}>
         {children}
       </body>
     </html>

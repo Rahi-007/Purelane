@@ -128,3 +128,6 @@
     @apply font-sans;
   }
 }
+.font-pacifico {
+  font-family: var(--font-pacifico), cursive;
+}

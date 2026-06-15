@@ -1,13 +1,15 @@
+import Footer from "@/components/common/Footer";
 import Hero from "@/components/common/Hero";
 import Navbar from "@/components/common/Navbar";
-import Topbar from "@/components/common/Topbar";
+import Header from "@/components/common/Header";
 
 export default function Home() {
   return (
     <div>
-      <Topbar />
+      <Header />
       <Hero />
       <Navbar />
+      <Footer />
     </div>
   );
 }

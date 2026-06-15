@@ -1,37 +1,215 @@
 [
   {
     "id": 1,
-    "name": "Classic White Sneakers",
-    "price": 89.99,
-    "image": "/products/sneaker-1.jpg",
-    "description": "Comfortable everyday sneakers with a clean and modern design."
+    "name": "High Protein",
+    "variant": "High Protein (32g) Instant Ramen Noodles Spicy Beef",
+    "SKU": "B0D9N9JTG6",
+    "Category": "Uncategorized",
+    "discountPrice": 40.22,
+    "price": 103.0,
+    "review": 20,
+    "narration": "Low Fat And Lower Carb: This ramen is made by air-drying process instead of deep-frying process, which maintains the natural nutrients of the noodles and avoids excess oil and grease. Compared with traditional deep-fried instant noodles",
+    "image": [
+      "/products/product_01_01.jpg",
+      "/products/product_01_02.jpg",
+      "/products/product_01_03.jpg",
+      "/products/product_01_04.jpg",
+      "/products/product_01_05.jpg",
+      "/products/product_01_06.jpg",
+      "/products/product_01_07.jpg"
+    ],
+    "description": {
+      "blocks": [
+        {
+          "type": "images",
+          "image": ["/products/product_01_des_01.jpg"]
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Beef, Chicken, Variety, Pork Tonkotsu",
+      "Size": "2.19 Ounce (Pack of 8)",
+      "Package Dimensions": "8.9 x 5.28 x 4.65 inches; 1.1 Pounds",
+      "ASIN": "B0D9N9JTG6",
+      "Units": "17.52 Fluid Ounces",
+      "Best Sellers Rank": "#51 in Packaged Noodle Dishes",
+      "Feature": "Healthy Diet & Holiday Gifts: A thoughtful gift for health-conscious friends and family, especially during the holiday season. Support their healthy diet with a tasty and versatile food option."
+    },
+    "isFreeShipping": true
   },
   {
     "id": 2,
-    "name": "Black Hoodie",
-    "price": 49.99,
-    "image": "/products/hoodie-1.jpg",
-    "description": "Premium cotton hoodie suitable for all seasons."
+    "name": "Top Noodle Soup",
+    "variant": "Top Noodle Soup, Chicken 3 Ounce",
+    "SKU": "B006MBTC50",
+    "Category": "Chicken Noodle",
+    "discountPrice": 10.99,
+    "price": 15.88,
+    "review": 10,
+    "narration": "TOP RAMEN IS ALWAYS A SIMPLE, DELICIOUS PLEASURE, as is or tossed with your favorite ingredients. PERFECT FOR A SNACK, MEAL OR SIDE DISH NO ADDED MSG QUICK AND EASY TO MAKE! Boil 2 cups of water in a saucepan. Add noodles, breaking up if desired. Cook for 3 minutes or until noodles are tender, stirring occasionally. Remove from heat. Stir in seasonings from flavor packet and eat. (To lower sodium, use less seasoning) VEGETARIAN OPTION AVAILABLE: Try Top Ramen Soy Sauce flavor",
+    "image": [
+      "/products/product_02_01.jpg",
+      "/products/product_02_02.jpg",
+      "/products/product_02_03.jpg",
+      "/products/product_02_04.jpg",
+      "/products/product_02_05.jpg",
+      "/products/product_02_06.jpg"
+    ],
+    "description": {
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "About this item"
+        },
+        {
+          "type": "list",
+          "items": [
+            "TOP RAMEN IS ALWAYS A SIMPLE, DELICIOUS PLEASURE, as is or tossed with your favorite ingredients",
+            "PERFECT FOR A SNACK, MEAL OR SIDE DISH",
+            "NO ADDED MSG",
+            "QUICK AND EASY TO MAKE! Boil 2 cups of water in a saucepan. Add noodles, breaking up if desired. Cook for 3 minutes or until noodles are tender, stirring occasionally. Remove from heat. Stir in seasonings from flavor packet and eat. (To lower sodium, use less seasoning)",
+            "VEGETARIAN OPTION AVAILABLE: Try Top Ramen Soy Sauce flavor"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "THE ORIGINAL INSTANT RAMEN NOODLE SINCE 1970 Delicious as is or tossed with your favorite ingredients, Top Ramen is always a simple pleasure. With no added MSG, the great taste you love has been stripped down to its essential noodle goodness. Even vegetarians can enjoy our Soy Sauce and Chili flavors with their favorite toppings"
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Chili, Chicken, Beef, Soy Sauce, Shrimp",
+      "Size": "3 Ounce (Pack of 24), 3.42 Ounce (Pack of 6), 3.28 Ounce (Pack of 6)",
+      "Package Dimensions": "15.7 x 10.5 x 4.2 inches; 4.65 Pounds",
+      "UPC": "070662013038",
+      "ASIN": "B006MBTC50",
+      "Units": "72.0 Ounce",
+      "Best Sellers Rank": "#2 in Packaged Noodle Dishes",
+      "Feature": "VEGETARIAN OPTION AVAILABLE: Try Top Ramen Soy Sauce flavor"
+    },
+    "isFreeShipping": true
   },
   {
     "id": 3,
-    "name": "Leather Backpack",
-    "price": 129.99,
-    "image": "/products/backpack-1.jpg",
-    "description": "Stylish leather backpack with multiple compartments."
+    "name": "Ramen Noodles Cup",
+    "variant": "(32g) Ramen Noodles Cup Variety Pack Plant-Based",
+    "SKU": "B0DXVCQ5KY",
+    "Category": "Beef Noodles",
+    "discountPrice": 83.0,
+    "price": 49.55,
+    "review": 18,
+    "narration": "32g Plant-Based Protein: Each ramen cup delivers a powerful 32 grams of protein from vegan sources—supporting your healthy, active lifestyle",
+    "image": [
+      "/products/product_01.jpg",
+      "/products/product_02.jpg",
+      "/products/product_03.jpg",
+      "/products/product_03.jpg",
+      "/products/product_04.jpg",
+      "/products/product_05.jpg",
+      "/products/product_06.jpg",
+      "/products/product_07.jpg",
+      "/products/product_08.jpg"
+    ],
+    "description": {
+      "blocks": [
+        {
+          "type": "images",
+          "image": [
+            "/products/product_03_des_01.jpg",
+            "/products/product_03_des_02.jpg",
+            "/products/product_03_des_03.jpg",
+            "/products/product_03_des_04.jpg",
+            "/products/product_03_des_05.jpg",
+            "/products/product_03_des_06.jpg",
+            "/products/product_03_des_07.jpg",
+            "/products/product_03_des_08.jpg",
+            "/products/product_03_des_09.jpg",
+            "/products/product_03_des_10.jpg",
+            "/products/product_03_des_11.jpg"
+          ]
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Beef Flavor, Spicy Kimchi Flavor, Spicy Curry Flavor, Chicken Flavor, Variety Flavor",
+      "Size": "2.19 oz (Pack of 6), 2.33 oz (Pack of 6)",
+      "Package Dimensions": "11.57 x 10.71 x 3.98 inches; 13.14 ounces",
+      "ASIN": "B0DXVCQ5KY",
+      "Units": "13.14 Ounce",
+      "Best Sellers Rank": "#73 in Packaged Noodle Dishes",
+      "Feature": "Ready in Just 5 Minutes: Quick and easy to prepare—just add hot water. For a softer noodle texture, cook a little longer to your liking."
+    },
+    "isFreeShipping": true
   },
   {
     "id": 4,
-    "name": "Wireless Headphones",
-    "price": 79.99,
-    "image": "/products/headphone-1.jpg",
-    "description": "High-quality sound with long battery life."
+    "name": "Instant Ramen Soup Cup",
+    "variant": "32g Instant Ramen Soup Cup Variety Spicy Beef",
+    "SKU": "B0D9N5MF56",
+    "Category": "Beef Noodles",
+    "discountPrice": 49.55,
+    "price": 99.36,
+    "review": 8,
+    "narration": "Multiple Flavors To Enjoy: You can freely switch between the warm flavor of chicken, the powerful taste of spicy beef, and the richness of guinea pork tonkotsu broth to satisfy your taste buds in different moods at any time, A Full Source Of Energy: Each packet of ramen is packed with 32 grams of plant-based protein, making it especially suitable for people who need to increase their stamina or maintain a healthy diet.",
+    "image": [
+      "/products/product_04_01.jpg",
+      "/products/product_04_02.jpg",
+      "/products/product_04_03.jpg",
+      "/products/product_04_04.jpg",
+      "/products/product_04_05.jpg",
+      "/products/product_04_06.jpg",
+      "/products/product_04_07.jpg"
+    ],
+    "description": {
+      "blocks": [
+        {
+          "type": "images",
+          "image": [
+            "/products/product_04_des_01.jpg",
+            "/products/product_04_des_02.jpg"
+          ]
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Chicken Flavor",
+      "Size": "2.19 Ounce (Pack of 6)",
+      "Package Dimensions": "11.61 x 8.66 x 3.9 inches; 13.14 ounces",
+      "ASIN": "B0D9M3BY43",
+      "Units": "13.14 Ounce",
+      "Best Sellers Rank": "#145 in Packaged Noodle Soups",
+      "Feature": "Multiple Flavors To Enjoy: You can freely switch between the warm flavor of chicken, the powerful taste of spicy beef, and the richness of guinea pork tonkotsu broth to satisfy your taste buds in different moods at any time, A Full Source Of Energy: Each packet of ramen is packed with 32 grams of plant-based protein, making it especially suitable for people who need to increase their stamina or maintain a healthy diet. Whether you're a fitness enthusiast or a worker in need of high energy, this ramen is ideal for you, Low Fat And Lower Carb: This ramen is made by air-drying process instead of deep-frying process, which maintains the natural nutrients of the noodles and avoids excess oil and grease. Compared with traditional deep-fried instant noodles, the fat content is significantly lower and has fewer calories, which satisfies your taste buds without worrying about the burden, Instant And Convenient: You can enjoy a bowl of hot ramen in just 5 minutes. If you prefer a softer ramen, we recommend cooking it for a few more minutes. And you can pair it with your favorite ingredients. It is the ideal companion to quench your cravings in your busy daily routine, portable and easy to cook at home or in the office. Please try different seasonings and cooking methods to find your favorite, Premium Quality Ingredients: Plant-based protein with rich, savory broth and high-quality noodles to deliver an authentic and satisfying ramen experience."
+    },
+    "isFreeShipping": true
   },
   {
-    "id": 5,
-    "name": "Smart Watch",
-    "price": 149.99,
-    "image": "/products/watch-1.jpg",
-    "description": "Track fitness, notifications, and daily activities."
+    "id": 0,
+    "name": "",
+    "variant": "",
+    "SKU": "",
+    "Category": "",
+    "discountPrice": 0.0,
+    "price": 0.0,
+    "review": 0,
+    "narration": "",
+    "image": [],
+    "description": {
+      "blocks": [
+        {
+          "type": "image",
+          "image": "/products/product_01_des.jpg"
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "",
+      "Size": "",
+      "Package Dimensions": "",
+      "ASIN": "",
+      "Units": "",
+      "Best Sellers Rank": "",
+      "Feature": ""
+    },
+    "isFreeShipping": true
   }
 ]

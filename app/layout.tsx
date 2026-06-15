@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { Pacifico, Ruthie } from "next/font/google";
+import { Lato, Pacifico } from "next/font/google";
 import "./globals.css";
 
-const ruthie = Ruthie({
-  weight: "400",
-  variable: "--font-ruthie",
+const lato = Lato({
   subsets: ["latin"],
+  weight: ["100", "300", "400", "700", "900"],
+  style: ["normal", "italic"],
+  variable: "--font-lato",
 });
 
 const pacifico = Pacifico({
@@ -14,20 +15,20 @@ const pacifico = Pacifico({
   subsets: ["latin"],
 });
 
-interface IProps {
-  children: React.ReactNode;
-}
-
 export const metadata: Metadata = {
   title: "Purelane Shop",
   description: "E-commerce website for personal business",
   icons: { icon: "/favicon.png" },
 };
 
-export default function RootLayout({ children }: Readonly<IProps>) {
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
-      <body className={`${ruthie.variable} ${pacifico.variable} antialiased`}>
+    <html lang="en" suppressHydrationWarning>
+      <body
+        className={`${lato.className} ${pacifico.variable} antialiased`}
+      >
         {children}
       </body>
     </html>

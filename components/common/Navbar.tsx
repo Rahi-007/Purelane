@@ -2,56 +2,78 @@
 
 import { Search, ShoppingCart, Menu } from "lucide-react";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 import Link from "next/link";
+interface IProps {
+  gap?: boolean;
+}
 
-const Navbar = () => {
+const Navbar = ({ gap = false }: IProps) => {
   const pathname = usePathname();
+  const [scrolled, setScrolled] = useState(false);
+  const top = gap ? "sm:top-12" : "sm:top-14";
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 200);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const route = [
-    {
-      label: "Best Sellers",
-      link: "/best",
-    },
-    {
-      label: "Shop Now",
-      link: "/shop",
-    },
-    {
-      label: "Contact",
-      link: "/contact",
-    },
-    {
-      label: "About",
-      link: "/about",
-    },
+    { label: "Best Buy", link: "/best" },
+    { label: "Shop Now", link: "/shop" },
+    { label: "Contact", link: "/contact" },
+    { label: "About", link: "/about" },
   ];
+
   return (
-    <div className="h-10 px-2 sm:px-6 fixed top-8 sm:top-14 w-full">
-      <div className="flex justify-between items-center bg-white h-full rounded-lg px-1 sm:px-2">
+    <div
+      className={`fixed left-0 w-full z-50 transition-all duration-500 ${
+        scrolled ? "top-[22px] sm:top-8" : `top-8 px-2 sm:px-6 ${top}`
+      }`}>
+      <div
+        className={`flex items-center justify-between transition-all duration-500 ${
+          scrolled
+            ? "bg-white/85 h-10 backdrop-blur-xl shadow-lg rounded-none"
+            : "bg-white h-12 shadow-sm rounded-xl"
+        }`}>
+        {/* Logo */}
         <Link href="/">
           <h1
-            className="pl-2 text-xl"
+            className="pl-4 text-xl"
             style={{ fontFamily: "var(--font-pacifico)" }}>
             Purelane
           </h1>
         </Link>
-        <div className="hidden sm:flex gap-4">
-          {route.map((item, index) => (
+
+        {/* Desktop Menu */}
+        <div className="hidden sm:flex gap-6">
+          {route.map((item) => (
             <Link
-              key={index}
+              key={item.link}
               href={item.link}
-              className={`text-sm font-medium transition-colors hover:text-gray-600 ${
-                pathname === item.link ? "text-black" : "text-gray-500"
+              className={`relative text-sm font-medium transition-colors ${
+                pathname === item.link
+                  ? "text-black"
+                  : "text-gray-500 hover:text-black"
               }`}>
               {item.label}
             </Link>
           ))}
         </div>
-        <div className="hidden sm:flex gap-4 items-center pr-2">
-          <Search className="w-5 h-5 cursor-pointer text-gray-700" />
-          <ShoppingCart className="w-5 h-5 cursor-pointer text-gray-700" />
+
+        {/* Actions */}
+        <div className="hidden sm:flex gap-4 items-center pr-4">
+          <Search className="w-5 h-5 cursor-pointer" />
+          <ShoppingCart className="w-5 h-5 cursor-pointer" />
         </div>
-        <div className="sm:hidden pr-2">
-          <Menu className="w-5 h-5 cursor-pointer text-gray-700" />
+
+        {/* Mobile */}
+        <div className="sm:hidden pr-4">
+          <Menu className="w-5 h-5 cursor-pointer" />
         </div>
       </div>
     </div>

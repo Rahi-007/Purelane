@@ -4,7 +4,7 @@
     "name": "High Protein",
     "variant": "High Protein (32g) Instant Ramen Noodles Spicy Beef",
     "SKU": "B0D9N9JTG6",
-    "Category": "Uncategorized",
+    "Category": ["Uncategorized"],
     "discountPrice": 40.22,
     "price": 103.0,
     "review": 20,
@@ -42,7 +42,7 @@
     "name": "Top Noodle Soup",
     "variant": "Top Noodle Soup, Chicken 3 Ounce",
     "SKU": "B006MBTC50",
-    "Category": "Chicken Noodle",
+    "Category": ["Chicken Noodle"],
     "discountPrice": 10.99,
     "price": 15.88,
     "review": 10,
@@ -94,21 +94,21 @@
     "name": "Ramen Noodles Cup",
     "variant": "(32g) Ramen Noodles Cup Variety Pack Plant-Based",
     "SKU": "B0DXVCQ5KY",
-    "Category": "Beef Noodles",
+    "Category": ["Beef Noodles"],
     "discountPrice": 83.0,
     "price": 49.55,
     "review": 18,
     "narration": "32g Plant-Based Protein: Each ramen cup delivers a powerful 32 grams of protein from vegan sources—supporting your healthy, active lifestyle",
     "image": [
-      "/products/product_01.jpg",
-      "/products/product_02.jpg",
-      "/products/product_03.jpg",
-      "/products/product_03.jpg",
-      "/products/product_04.jpg",
-      "/products/product_05.jpg",
-      "/products/product_06.jpg",
-      "/products/product_07.jpg",
-      "/products/product_08.jpg"
+      "/products/product_03_01.jpg",
+      "/products/product_03_02.jpg",
+      "/products/product_03_03.jpg",
+      "/products/product_03_03.jpg",
+      "/products/product_03_04.jpg",
+      "/products/product_03_05.jpg",
+      "/products/product_03_06.jpg",
+      "/products/product_03_07.jpg",
+      "/products/product_03_08.jpg"
     ],
     "description": {
       "blocks": [
@@ -146,7 +146,7 @@
     "name": "Instant Ramen Soup Cup",
     "variant": "32g Instant Ramen Soup Cup Variety Spicy Beef",
     "SKU": "B0D9N5MF56",
-    "Category": "Beef Noodles",
+    "Category": ["Beef Noodles"],
     "discountPrice": 49.55,
     "price": 99.36,
     "review": 8,
@@ -183,16 +183,125 @@
     "isFreeShipping": true
   },
   {
-    "id": 0,
-    "name": "",
+    "id": 5,
+    "name": "Chicken Instant Ramen Noodles",
+    "variant": "Chicken Instant Ramen Noodles Ready to Eat Meals, 3 Oz, 24 Count",
+    "SKU": "B07222R3Y5",
+    "Category": ["Beef Noodles", "Chicken Noodle"],
+    "discountPrice": 39.22,
+    "price": 68.99,
+    "review": 16,
+    "narration": "COOKS IN 3 MINUTES: Cooking Directions: 1.) Boil 2 cups of water in a saucepan, add noodles and cook for 3 minutes, stirring occasionally. See details in the description box",
+    "image": [
+      "/products/product_05_01.jpg",
+      "/products/product_05_02.jpg",
+      "/products/product_05_03.jpg",
+      "/products/product_05_04.jpg",
+      "/products/product_05_05.jpg",
+      "/products/product_05_06.jpg"
+    ],
+    "description": {
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "About this item"
+        },
+        {
+          "type": "list",
+          "items": [
+            "COOKS IN 3 MINUTES: Cooking Directions: 1.) Boil 2 cups of water in a saucepan, add noodles and cook for 3 minutes stirring occasionally. 2.) Turn off heat, add contents of seasoning packet, stir well for 1 minute until seasoning is fully dissolved. Makes 2, 8 oz. servings. 3.) Product is very hot. Allow to cook, serve and enjoy",
+            "PACKED WITH FLAVOR: Chicken flavor. Not your ordinary chicken noodle soup. Enjoy ramen perfectly seasoned with the savory taste of chicken",
+            "FAMILY FAVORITE: Maruchan ramen is one of the nation’s favorite ramen soup brands. Maruchan offers a wide variety of delicious Ramen flavors including less sodium Ramen and authentic ethnic flavor products. Maruchan Ramen makes a creative addition to any recipe. The possibilities are endless",
+            "GREAT COLLEGE GIFT: Ramen is a staple snack for college kids so help feed their late-night study cravings with Maruchan ramen! Send a snack care package to your college student",
+            "SIZE: 24 pack/count of 3 oz units"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Maruchan offers a wide variety of delicious Ramen flavors including less sodium Ramen and authentic ethnic flavor products. Maruchan Ramen makes a creative addition to any recipe. The possibilities are endless."
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Chicken, Creamy Chicken, Picante Chicken, Shrimp, Soy Sauce, Less Sodium Beef, Roast Beef, Less Sodium Chicken, Roast Chicken",
+      "Size": "0.13 Ounce (Pack of 24), 3 Ounce (Pack of 24)",
+      "Package Dimensions": "15.5 x 9.8 x 4.3 inches; 4.5 Pounds",
+      "ASIN": "B07222R3Y5",
+      "Units": "3.0 Ounce",
+      "Best Sellers Rank": "#1 in Packaged Noodle Soups",
+      "Feature": "SIZE: 24 pack/count of 3 oz units"
+    },
+    "isFreeShipping": true
+  },
+  {
+    "id": 6,
+    "name": "Condensed Chicken Noodle Soup",
+    "variant": "Condensed Chicken Noodle Soup, 10.75 Ounce Can (Pack of 4)",
+    "SKU": "B009LJO3X6",
+    "Category": ["Beef Noodles", " Chicken Noodle"],
+    "discountPrice": 17.22,
+    "price": 29.99,
+    "review": 10,
+    "narration": "Four (4) 10.75 oz cans of Campbell’s Condensed Chicken Noodle Soup. Soul-warming chicken soup crafted with perfectly seasoned golden chicken broth, egg noodles, and tender chicken meat with no antibiotics",
+    "image": [
+      "/products/product_06_01.jpg",
+      "/products/product_06_02.jpg",
+      "/products/product_06_03.jpg",
+      "/products/product_06_04.jpg",
+      "/products/product_06_05.jpg",
+      "/products/product_06_06.jpg",
+      "/products/product_06_07.jpg"
+    ],
+    "description": {
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Product Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cozy up with a steamy bowl of Campbell’s Condensed Chicken Noodle Soup. A family favorite for generations, this delicious chicken soup is crafted with perfectly seasoned golden chicken broth, egg noodles, and tender chicken meat with no antibiotics. The result is a canned chicken noodle soup that brings a smile with every spoonful. Top it with Pepperidge Farm Golden Butter Crackers, season it with fresh herbs, or pair it with a sandwich or salad for something quick and easy. This convenient canned soup is a year-round pantry staple and the perfect comfort food on a chilly day or when you’re feeling under the weather. Simply mix the condensed soup with 1 can of water and microwave on high for 2.5 to 3 minutes in a covered microwave-safe bowl, or heat in a pot on the stove, stirring occasionally. Each 10.75 oz recyclable can contains about 2.5 servings of microwave soup and features a non-BPA lining. From Chicken Noodle to Cream of Mushroom and everything in between, Campbell’s makes delicious soups in flavors your family knows and loves, with quality, farm-grown ingredients in every can. M’m! M’m! Good!"
+        },
+        {
+          "type": "heading",
+          "text": "From the Manufacturer"
+        },
+        {
+          "type": "paragraph",
+          "text": "Campbell’s Condensed Chicken Noodle Soup warms the soul and has earned its place in the pantry as a family favorite. Join Campbell’s in the kitchen by customizing our soup with fresh herbs or croutons, or pair it with crackers, salad, or a sandwich. We perfectly season our golden chicken broth and add in fresh egg noodles and roasted chicken meat raised without antibiotics. The end result is a soul-warming chicken noodle soup that brings a smile with every spoonful. Made with honest, high-quality ingredients like egg noodles, this canned soup is a crowd pleaser and makes for the perfect addition to your weeknight family dinner that everyone will love. This trusted staple is the start to a great meal. M’m! M’m! Good! From Chicken Noodle to Tomato and everything in between, Campbell’s makes delicious soups with quality, farm-grown ingredients in flavors you and your family know and love. Whether Campbell’s Condensed canned soups are the start of great recipes or you want to simmer down with the perfect bowl, we have a soup that everyone can enjoy."
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Chicken Noodle",
+      "Size": "10.75 Ounce (Pack of 4), 15.48 Ounce (Pack of 8), 10.75 Ounce (Pack of 8), 15.4 Ounce (Pack of 1)",
+      "Package Dimensions": "4.8 x 4.8 x 3.4 inches; 2.65 Pounds",
+      "ASIN": "B009LJO3X6",
+      "Units": "43.0 Ounce",
+      "Best Sellers Rank": "#2 in Packaged Chicken Soups",
+      "Feature": "Each 10.75 oz recyclable can contains about 2.5 servings of microwave soup and features a non-BPA lining"
+    },
+    "isFreeShipping": true
+  },
+  {
+    "id": 7,
+    "name": "Instant Ramen Soup",
     "variant": "",
-    "SKU": "",
-    "Category": "",
-    "discountPrice": 0.0,
-    "price": 0.0,
-    "review": 0,
+    "SKU": "B0D9N59224",
+    "Category": ["Beef Noodles"],
+    "discountPrice": 49.55,
+    "price": 79.36,
+    "review": 10,
     "narration": "",
-    "image": [],
+    "image": [
+      "/products/product_07_01.jpg",
+      "/products/product_07_02.jpg",
+      "/products/product_07_03.jpg",
+      "/products/product_07_04.jpg",
+      "/products/product_07_05.jpg",
+      "/products/product_07_06.jpg",
+      "/products/product_07_07.jpg"
+    ],
     "description": {
       "blocks": [
         {
@@ -202,13 +311,136 @@
       ]
     },
     "additionalInfo": {
-      "Flavor Name": "",
+      "Flavor Name": "Tonkotsu Flavor",
+      "Size": "2.19 Ounce (Pack of 6)",
+      "Package Dimensions": "11.61 x 8.66 x 3.9 inches; 13.14 ounces",
+      "ASIN": "B0D9M3BY43",
+      "Units": "13.14 Ounce",
+      "Best Sellers Rank": "#145 in Packaged Noodle Soups",
+      "Feature": "Multiple Flavors To Enjoy: You can freely switch between the warm flavor of chicken, the powerful taste of spicy beef, and the richness of guinea pork tonkotsu broth to satisfy your taste buds in different moods at any time, A Full Source Of Energy: Each packet of ramen is packed with 32 grams of plant-based protein, making it especially suitable for people who need to increase their stamina or maintain a healthy diet. Whether you're a fitness enthusiast or a worker in need of high energy, this ramen is ideal for you, Low Fat And Lower Carb: This ramen is made by air-drying process instead of deep-frying process, which maintains the natural nutrients of the noodles and avoids excess oil and grease. Compared with traditional deep-fried instant noodles, the fat content is significantly lower and has fewer calories, which satisfies your taste buds without worrying about the burden, Instant And Convenient: You can enjoy a bowl of hot ramen in just 5 minutes. If you prefer a softer ramen, we recommend cooking it for a few more minutes. And you can pair it with your favorite ingredients. It is the ideal companion to quench your cravings in your busy daily routine, portable and easy to cook at home or in the office. Please try different seasonings and cooking methods to find your favorite, Premium Quality Ingredients: Plant-based protein with rich, savory broth and high-quality noodles to deliver an authentic and satisfying ramen experience."
+    },
+    "isFreeShipping": true
+  },
+  {
+    "id": 8,
+    "name": "Instant Ramen Chicken, Beef",
+    "variant": "High-Protein Instant Ramen Chicken, Beef",
+    "SKU": "B0D41K54PQ",
+    "Category": ["Beef Noodles"],
+    "discountPrice": 39.55,
+    "price": 69.55,
+    "review": 15,
+    "narration": "High Protein, Low Fat: Each serving of Hethstia Ramen packs 31 grams of protein with low fat content, making it a nutritious and satisfying choice for those looking to fuel up with clean ingredients.",
+    "image": [
+      "/products/product_08_01.jpg",
+      "/products/product_08_02.jpg",
+      "/products/product_08_03.jpg",
+      "/products/product_08_04.jpg",
+      "/products/product_08_05.jpg",
+      "/products/product_08_06.jpg",
+      "/products/product_08_07.jpg"
+    ],
+    "description": {
+      "blocks": [
+        {
+          "type": "image",
+          "image": "/products/product_01_des.jpg"
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Chicken, Spicy Beef, Pork Tonkotsu, Variety(Chicken, Spicy Beef, Pork Tonkotsu)",
       "Size": "",
-      "Package Dimensions": "",
-      "ASIN": "",
-      "Units": "",
-      "Best Sellers Rank": "",
-      "Feature": ""
+      "Package Dimensions": "7.99 x 5.12 x 4.61 inches; 1.13 ounces",
+      "ASIN": "B0D41K54PQ",
+      "Units": "17.5 Ounce",
+      "Best Sellers Rank": "#116 in Packaged Noodle Soups",
+      "Feature": "Quick & Easy Meal: Ready in just 5 minutes! Ideal for a healthy, protein-packed meal at home, work, or on the go."
+    },
+    "isFreeShipping": true
+  },
+  {
+    "id": 9,
+    "name": "Ramen Variety Pack",
+    "variant": "High-Protein Ramen Variety Pack Chicken, Beef, Spicy Kimchi",
+    "SKU": "B0DXPSYYGD",
+    "Category": ["Beef Noodles"],
+    "discountPrice": 49.55,
+    "price": 89.78,
+    "review": 8,
+    "narration": "4 Delicious Flavors in One Pack – Enjoy variety with Chicken, Spicy Beef, Spicy Kimchi, and Spicy Curry flavors—each rich in flavor and crafted for bold, satisfying taste",
+    "image": [
+      "/products/product_09_01.jpg",
+      "/products/product_09_02.jpg",
+      "/products/product_09_03.jpg",
+      "/products/product_09_04.jpg",
+      "/products/product_09_05.jpg",
+      "/products/product_09_06.jpg",
+      "/products/product_09_07.jpg"
+    ],
+    "description": {
+      "blocks": [
+        {
+          "type": "image",
+          "image": "/products/product_01_des.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "The brand Hethstia began with a single vision: discover the possibilities of healthy lifestyle. Exploring all possible food solutions with natural material, it is an on-going journey for Hethstia. Hethstia is founded on the strong belief that healthy food should be in everyone’s daily life. Hethstia is a healthy food brand for those who are looking for healthy diet solutions in daily life."
+        },
+        {
+          "type": "paragraph",
+          "text": "Today, people are paying more attention to their health, especially when faced with different sub-health issues like obesity or diabetes, so we offer a wide variety of healthy and natural food products that are produced from our sustainable plant base from farm to plate, currently reaching over 50 countries worldwide"
+      }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Spicy Beef, Spicy Curry, Variety, Chicken Flavor, Spicy Kimchi",
+      "Size": "1 Count (Pack of 6), 13.12 oz",
+      "Package Dimensions": "7.87 x 5.12 x 4.72 inches; 1.1 Pounds",
+      "ASIN": "B0DXPSYYGD",
+      "Units": "6 Count",
+      "Best Sellers Rank": "#107 in Packaged Noodle Soups",
+      "Feature": "Tip for Perfect Texture – Let your noodles steep longer to deepen the broth’s flavor and achieve the ideal, chewy consistency that makes each bowl more enjoyable."
+    },
+    "isFreeShipping": true
+  },
+  {
+    "id": 10,
+    "name": "Ramen Soup Cup",
+    "variant": "Instant Ramen Soup Cup Variety Flavor Chicken Spicy Beef",
+    "SKU": "B0D9N751G4",
+    "Category": ["Beef Noodles"],
+    "discountPrice": 39.36,
+    "price": 53.11,
+    "review": 10,
+    "narration": "",
+    "image": [
+      "/products/product_10_01.jpg",
+      "/products/product_10_02.jpg",
+      "/products/product_10_03.jpg",
+      "/products/product_10_04.jpg",
+      "/products/product_10_05.jpg",
+      "/products/product_10_06.jpg",
+      "/products/product_10_07.jpg"
+    ],
+    "description": {
+      "blocks": [
+        {
+          "type": "image",
+          "image": "/products/product_01_des.jpg"
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Beef Flavor",
+      "Size": "2.19 Ounce (Pack of 6)",
+      "Package Dimensions": "11.61 x 8.66 x 3.9 inches; 13.14 ounces",
+      "ASIN": "B0D9M3BY43",
+      "Units": "13.14 Ounce",
+      "Best Sellers Rank": "#145 in Packaged Noodle Soups",
+      "Feature": "Multiple Flavors To Enjoy: You can freely switch between the warm flavor of chicken, the powerful taste of spicy beef, and the richness of guinea pork tonkotsu broth to satisfy your taste buds in different moods at any time, A Full Source Of Energy: Each packet of ramen is packed with 32 grams of plant-based protein, making it especially suitable for people who need to increase their stamina or maintain a healthy diet. Whether you're a fitness enthusiast or a worker in need of high energy, this ramen is ideal for you, Low Fat And Lower Carb: This ramen is made by air-drying process instead of deep-frying process, which maintains the natural nutrients of the noodles and avoids excess oil and grease. Compared with traditional deep-fried instant noodles, the fat content is significantly lower and has fewer calories, which satisfies your taste buds without worrying about the burden, Instant And Convenient: You can enjoy a bowl of hot ramen in just 5 minutes. If you prefer a softer ramen, we recommend cooking it for a few more minutes. And you can pair it with your favorite ingredients. It is the ideal companion to quench your cravings in your busy daily routine, portable and easy to cook at home or in the office. Please try different seasonings and cooking methods to find your favorite, Premium Quality Ingredients: Plant-based protein with rich, savory broth and high-quality noodles to deliver an authentic and satisfying ramen experience."
+
     },
     "isFreeShipping": true
   }

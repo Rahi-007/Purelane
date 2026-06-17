@@ -32,7 +32,7 @@ const Navbar = ({ gap = false }: IProps) => {
   return (
     <div
       className={`fixed left-0 w-full z-50 transition-all duration-500 ${
-        scrolled ? "top-[22px] sm:top-8" : `top-8 px-2 sm:px-6 ${top}`
+        scrolled ? "top-5.5 sm:top-8" : `top-8 px-2 sm:px-6 ${top}`
       }`}>
       <div
         className={`flex items-center justify-between transition-all duration-500 ${

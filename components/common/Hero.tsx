@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 
 const images = [
   "/products/product_03_des_03.jpg",
-  "/products/product_03_des_05.jpg",
-  "/products/product_03_des_08.jpg"
+  "/products/product_03_des_04.jpg",
+  "/products/product_03_des_05.jpg"
 ];
 
 const Hero = () => {

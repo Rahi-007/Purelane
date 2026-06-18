@@ -6,15 +6,14 @@ import ProductGallery from "@/components/product/ProductGallery";
 import ProductDetails from "@/components/product/ProductDetails";
 import Navbar from "@/components/common/Navbar";
 import Tabs, { Product } from "@/components/product/Tabs";
-
 interface PageProps {
-  params: Promise<{
+  params: {
     productId: string;
-  }>;
+  };
 }
 
-export default async function Page({ params }: PageProps) {
-  const { productId } = await params;
+export default function Page({ params }: PageProps) {
+  const { productId } = params;
 
   const typedProducts = products as Product[];
 
@@ -25,7 +24,6 @@ export default async function Page({ params }: PageProps) {
   if (!product) {
     notFound();
   }
-
   return (
     <div>
       <Header />

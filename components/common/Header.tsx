@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { AnimatePresence, motion } from "framer-motion";
 import heading from "../../data/heading.json";
 
 const Header = () => {
@@ -25,15 +26,36 @@ const Header = () => {
 
   return (
     <div className="bg-black text-white flex justify-center sm:justify-between items-center h-6 sm:h-8 px-1 fixed top-0 w-full z-1">
-      <button onClick={prevSlide} className="hidden sm:block">
+      <motion.button
+        whileHover={{ scale: 1.15 }}
+        whileTap={{ scale: 0.95 }}
+        onClick={prevSlide}
+        className="hidden sm:block"
+      >
         <ChevronLeft className="w-5 h-5" />
-      </button>
+      </motion.button>
 
-      <p className="text-xs sm:text-sm">{heading[currentIndex].description}</p>
+      <AnimatePresence mode="wait">
+        <motion.p
+          key={currentIndex}
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -10 }}
+          transition={{ duration: 0.3 }}
+          className="text-xs sm:text-sm"
+        >
+          {heading[currentIndex].description}
+        </motion.p>
+      </AnimatePresence>
 
-      <button onClick={nextSlide} className="hidden sm:block">
+      <motion.button
+        whileHover={{ scale: 1.15 }}
+        whileTap={{ scale: 0.95 }}
+        onClick={nextSlide}
+        className="hidden sm:block"
+      >
         <ChevronRight className="w-5 h-5" />
-      </button>
+      </motion.button>
     </div>
   );
 };

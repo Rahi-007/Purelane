@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Lato, Pacifico } from "next/font/google";
+import { Nunito_Sans, Pacifico } from "next/font/google";
 import "./globals.css";
 
-const lato = Lato({
+const lato = Nunito_Sans({
   subsets: ["latin"],
-  weight: ["100", "300", "400", "700", "900"],
+  weight: ["300", "400", "700", "900"],
   style: ["normal", "italic"],
-  variable: "--font-lato",
+  variable: "--font-nunito-sans",
 });
 
 const pacifico = Pacifico({

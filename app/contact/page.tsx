@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <div>
       <Header />
-      <Navbar />
+      <Navbar gap={true} />
       <ContactForm className="mt-22 sm:mt-30" />
       <Footer />
     </div>

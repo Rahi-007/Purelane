@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <div>
       <Header />
-      <Navbar />
+      <Navbar gap={true} />
     </div>
   );
 }

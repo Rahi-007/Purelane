@@ -20,19 +20,6 @@ const ProductCard = ({ product }: IProps) => {
   return (
     <Link href={`/shop/${product.id}`} className="block h-full">
       <div className="group h-full overflow-hidden rounded-xl border bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl flex flex-col">
-        {/* <div className="relative overflow-hidden">
-          <Image
-            src={product.image[0]}
-            alt={product.name}
-            width={400}
-            height={400}
-            className="h-64 w-full object-cover transition duration-300 group-hover:scale-105"
-          />
-
-          <span className="absolute right-0 top-0 bg-red-600 px-4 py-1 text-xs font-bold text-white">
-            SALE
-          </span>
-        </div> */}
         <div className="relative overflow-hidden">
           <Image
             src={product.image[0]}

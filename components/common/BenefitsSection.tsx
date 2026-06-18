@@ -23,7 +23,7 @@ export default function BenefitsSection() {
     ];
 
     return (
-        <section className="bg-[#EAF5F8] py-20">
+        <section className="bg-[#EAF5F8] py-20 mt-12">
             <div className="container mx-auto px-4">
                 <h2 className="mb-14 text-center text-4xl font-bold text-[#0D4F4D]">
                     Benefits for your expediency

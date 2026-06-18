@@ -48,7 +48,7 @@ export default function BenefitsSection() {
                                     {item.title}
                                 </h3>
 
-                                <p className="max-w-[220px] text-[#4D7270]">
+                                <p className="max-w-55 text-[#4D7270]">
                                     {item.description}
                                 </p>
                             </div>

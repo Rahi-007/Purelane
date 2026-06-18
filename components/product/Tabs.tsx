@@ -39,7 +39,7 @@ export interface Product {
     isFreeShipping: boolean;
     narration: string;
     image: string[];
-    Category: string[];
+    category: string[];
     additionalInfo: Record<string, string | undefined>;
     description: {
         blocks: DescriptionBlock[];

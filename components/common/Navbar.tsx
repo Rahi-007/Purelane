@@ -25,8 +25,8 @@ const Navbar = ({ gap = false }: IProps) => {
   const route = [
     { label: "Best Buy", link: "/best" },
     { label: "Shop Now", link: "/shop" },
-    { label: "Contact", link: "/contact" },
-    { label: "About", link: "/about" },
+    { label: "Contact Us", link: "/contact" },
+    { label: "About Us", link: "/about" },
   ];
 
   return (

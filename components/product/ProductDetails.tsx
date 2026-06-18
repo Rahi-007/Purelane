@@ -1,24 +1,12 @@
 "use client";
 
-import { useState } from "react";
 import Rating from "./Rating";
-
-interface Product {
-  name: string;
-  variant: string;
-  sku: string;
-  discountPrice: number;
-  price: number;
-  review: number;
-  isFreeShipping: boolean;
-  narration: string;
-  Category: string[];
-};
+import { useState } from "react";
+import { Product } from "./Tabs";
 
 interface ProductDetailsProps {
   product: Product;
 }
-
 
 const ProductDetails = ({ product }: ProductDetailsProps) => {
   const [quantity, setQuantity] = useState(1);
@@ -92,7 +80,7 @@ const ProductDetails = ({ product }: ProductDetailsProps) => {
       {/* Extra Info */}
       <div className="mt-8 border-t pt-2 text-sm text-gray-600 flex justify-between">
         <p>SKU: {product.sku}</p>
-        <p>Category: {product.Category.join(", ")}</p>
+        <p>Category: {product.category.join(", ")}</p>
       </div>
     </div>
   );

@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+
 interface IProps {
   gap?: boolean;
 }
@@ -31,10 +32,7 @@ const Navbar = ({ gap = false }: IProps) => {
   ];
 
   return (
-    <motion.div
-      // initial={{ y: 5, opacity: 0 }}
-      // animate={{ y: 0, opacity: 1 }}
-      // transition={{ duration: 0.5 }}
+    <div
       className={`fixed left-0 w-full z-50 transition-all duration-500 
         ${scrolled ? "top-5.5 sm:top-8" : `top-8 px-2 sm:px-6 ${top}`}`}
     >
@@ -49,7 +47,9 @@ const Navbar = ({ gap = false }: IProps) => {
             whileHover={{ scale: 1.05 }}
             className="pl-4 text-xl"
             style={{ fontFamily: "var(--font-pacifico)" }}
-          >Purelane</motion.h1>
+          >
+            Purelane
+          </motion.h1>
         </Link>
         <div className="hidden sm:flex gap-6">
           {route.map((item) => (
@@ -86,7 +86,7 @@ const Navbar = ({ gap = false }: IProps) => {
           <Menu className="w-5 h-5 cursor-pointer" />
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

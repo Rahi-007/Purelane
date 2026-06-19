@@ -3,28 +3,25 @@
 import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import emailjs from "@emailjs/browser";
 import { Mail, MapPin, Phone } from "lucide-react";
+import { motion } from "framer-motion";
+import emailjs from "@emailjs/browser";
 
 export const contactSchema = z.object({
     name: z.string().min(2, "Name is too short"),
-
     email: z.string().email("Invalid email"),
-
     phone: z.string().optional().or(z.literal("")),
-
     subject: z.string().min(3, "Subject is required"),
-
     message: z.string().min(10, "Message is too short"),
 });
 
 export type ContactFormData = z.infer<typeof contactSchema>;
 
-interface IProps{
+interface IProps {
     className?: string;
 }
 
-export default function ContactForm({className}: IProps) {
+export default function ContactForm({ className }: IProps) {
     const {
         register,
         handleSubmit,
@@ -58,27 +55,51 @@ export default function ContactForm({className}: IProps) {
     };
 
     return (
-        <div className={`mx-auto max-w-7xl mb-10 rounded-md border ${className}`}>
+        <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{
+                once: false,
+                amount: 0.1,
+            }}
+            transition={{ duration: 0.7 }}
+            className={`mx-auto max-w-[320px] sm:max-w-7xl mb-12 rounded-md border ${className}`}
+        >
             <h1 className="bg-black text-white font-bold text-3xl p-4 rounded-t-md text-center">Get In Touch With Us </h1>
-            <div className="grid grid-cols-2 gap-6">
-                <div className="bg-gray-50 p-6">
-                    <div className="flex gap-4 border-b py-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <motion.div
+                    initial={{ opacity: 0, x: -40 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: false, amount: 0.2 }}
+                    transition={{ duration: 0.6 }}
+                    className="bg-gray-50 p-6"
+                >
+                    <motion.div
+                        whileHover={{ x: 5 }}
+                        className="flex gap-4 border-b py-6"
+                    >
                         <Phone className="mt-1 h-5 w-5" />
                         <div>
                             <p className="text-sm text-gray-500">Phone Number</p>
                             <p className="font-semibold">+880 1473-865439</p>
                         </div>
-                    </div>
+                    </motion.div>
 
-                    <div className="flex gap-4 border-b py-6">
+                    <motion.div
+                        whileHover={{ x: 5 }}
+                        className="flex gap-4 border-b py-6"
+                    >
                         <Mail className="mt-1 h-5 w-5" />
                         <div>
                             <p className="text-sm text-gray-500">Email Address</p>
                             <p className="font-semibold">support@gmail.com</p>
                         </div>
-                    </div>
+                    </motion.div>
 
-                    <div className="flex gap-4 pt-5">
+                    <motion.div
+                        whileHover={{ x: 5 }}
+                        className="flex gap-4 border-b py-6"
+                    >
                         <MapPin className="mt-1 h-5 w-5" />
                         <div>
                             <p className="text-sm text-gray-500">Location</p>
@@ -90,10 +111,15 @@ export default function ContactForm({className}: IProps) {
                                 United States
                             </p>
                         </div>
-                    </div>
-                </div>
-                {/* RIGHT SIDE */}
-                <div className="p-6">
+                    </motion.div>
+                </motion.div>
+                <motion.div
+                    initial={{ opacity: 0, x: -40 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: false, amount: 0.1 }}
+                    transition={{ duration: 0.6 }}
+                    className="p-6"
+                >
 
                     <form onSubmit={handleSubmit(onSubmit)} className="space-y-4 w-full">
 
@@ -101,7 +127,7 @@ export default function ContactForm({className}: IProps) {
                             Send us a message
                         </h2>
 
-                        <div className="grid grid-cols-2 gap-4">
+                        <div className="flex flex-col md:grid grid-cols-1 md:grid-cols-2 gap-2 sm:gap-4">
 
                             {/* NAME */}
                             <div>
@@ -155,20 +181,22 @@ export default function ContactForm({className}: IProps) {
                             </div>
 
                             {/* BUTTON */}
-                            <div className="col-span-2">
-                                <button
+                            <div className="md:col-span-2">
+                                <motion.button
+                                    whileHover={{ scale: 1.02 }}
+                                    whileTap={{ scale: 0.98 }}
                                     disabled={isSubmitting}
                                     className="w-full bg-black text-white p-3 rounded-lg hover:bg-gray-800 transition"
                                 >
                                     {isSubmitting ? "Sending..." : "Send Message"}
-                                </button>
+                                </motion.button>
                             </div>
 
                         </div>
                     </form>
 
-                </div>
+                </motion.div>
             </div>
-        </div>
+        </motion.div>
     );
 }

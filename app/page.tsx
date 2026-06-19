@@ -18,7 +18,7 @@ export default function Home() {
       <CategoryList />
       <BenefitsSection />
       <LatestProduct />
-      <ContactForm className="mt-4" />
+      <ContactForm className="mt-12" />
       <Footer />
     </div>
   );

@@ -1,4 +1,8 @@
+"use client"
+
 import { HandCoins, PackageCheck, Headphones } from "lucide-react";
+import { motion } from "framer-motion";
+import { fadeUpAnimation } from "@/lib/motion.utils";
 
 export default function BenefitsSection() {
     const benefits = [
@@ -25,11 +29,25 @@ export default function BenefitsSection() {
     return (
         <section className="bg-[#EAF5F8] py-20 mt-12">
             <div className="container mx-auto px-4">
-                <h2 className="mb-14 text-center text-4xl font-bold text-[#0D4F4D]">
-                    Benefits for your expediency
-                </h2>
 
-                <div className="grid gap-10 md:grid-cols-3">
+                <motion.h2 className="mb-14 text-center text-4xl font-bold text-[#0D4F4D]" {...fadeUpAnimation(30, 0.6)}>
+                    Benefits for your expediency
+                </motion.h2>
+
+                <motion.div
+                    variants={{
+                        hidden: {},
+                        visible: {
+                            transition: {
+                                staggerChildren: 0.15,
+                            },
+                        },
+                    }}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: false, amount: 0.1 }}
+                    className="grid gap-10 md:grid-cols-3"
+                >
                     {benefits.map((item, index) => {
                         const Icon = item.icon;
 
@@ -38,11 +56,15 @@ export default function BenefitsSection() {
                                 key={index}
                                 className="flex flex-col items-center text-center"
                             >
-                                <div
+                                <motion.div
+                                    whileHover={{
+                                        scale: 1.2,
+                                        rotate: 5,
+                                    }}
                                     className={`mb-6 flex h-14 w-14 items-center justify-center rounded-2xl ${item.bg}`}
                                 >
                                     <Icon size={32} className="text-[#6A8D8B]" />
-                                </div>
+                                </motion.div>
 
                                 <h3 className="mb-3 text-2xl font-semibold text-[#0D4F4D]">
                                     {item.title}
@@ -54,8 +76,8 @@ export default function BenefitsSection() {
                             </div>
                         );
                     })}
-                </div>
-            </div>
-        </section>
+                </motion.div>
+            </div >
+        </section >
     );
 }

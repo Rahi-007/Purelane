@@ -1,18 +1,29 @@
-import Image from "next/image";
+"use client"
+
 import Link from "next/link";
+import Image from "next/image";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white">
+    <motion.footer
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: false, amount: 0.1 }}
+      transition={{ duration: 0.6 }}
+      className="bg-black text-white"
+    >
       <div className="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row gap-10 md:gap-16">
         <div className="md:w-[40%] md:pr-10">
-          <Image
-            src="/logo.jpeg"
-            alt="Purelane Logo"
-            width={190}
-            height={190}
-            className="w-auto mb-4"
-          />
+          <motion.div whileHover={{ scale: 1.05 }}>
+            <Image
+              src="/logo.jpeg"
+              alt="Purelane Logo"
+              width={190}
+              height={190}
+              className="w-auto mb-4"
+            />
+          </motion.div>
 
           <p className="text-gray-400 text-sm leading-6 text-justify">
             Discover premium products designed to elevate your everyday
@@ -35,17 +46,19 @@ const Footer = () => {
               United States
             </p>
 
-            <a
+            <motion.a
+              whileHover={{ x: 4 }}
               href="tel:+18008294933"
               className="block hover:text-white transition">
               1-800-829-4933
-            </a>
+            </motion.a>
 
-            <a
-              href="mailto:support@aamiramart.com"
-              className="block hover:text-white transition">
+            <motion.a
+              whileHover={{ x: 4 }}
+              className="block hover:text-white transition"
+              href="mailto:support@aamiramart.com">
               support@purelane.com
-            </a>
+            </motion.a>
           </div>
         </div>
 
@@ -53,31 +66,53 @@ const Footer = () => {
           <h3 className="text-lg md:text-xl font-semibold mb-5">Our Policy</h3>
 
           <div className="flex flex-col gap-3 text-sm text-gray-400">
-            <Link
-              href="/shipping-policy"
-              className="hover:text-white transition">
-              Shipping Policy
-            </Link>
+            <motion.div
+              whileHover={{ x: 4 }}
+              transition={{ duration: 0.2 }}
+            >
+              <Link
+                href="/shipping-policy"
+                className="hover:text-white transition">
+                Shipping Policy
+              </Link>
+            </motion.div>
+            <motion.div
+              whileHover={{ x: 4 }}
+              transition={{ duration: 0.2 }}
+            >
+              <Link href="/refund-policy" className="hover:text-white transition">
+                Refund & Returns Policy
+              </Link>
+            </motion.div>
 
-            <Link href="/refund-policy" className="hover:text-white transition">
-              Refund & Returns Policy
-            </Link>
-
-            <Link
-              href="/privacy-policy"
-              className="hover:text-white transition">
-              Privacy Policy
-            </Link>
-
-            <Link
-              href="/order-tracking"
-              className="hover:text-white transition">
-              Order Tracking
-            </Link>
-
-            <Link href="/contact" className="hover:text-white transition">
-              Contact Us
-            </Link>
+            <motion.div
+              whileHover={{ x: 4 }}
+              transition={{ duration: 0.2 }}
+            >
+              <Link
+                href="/privacy-policy"
+                className="hover:text-white transition">
+                Privacy Policy
+              </Link>
+            </motion.div>
+            <motion.div
+              whileHover={{ x: 4 }}
+              transition={{ duration: 0.2 }}
+            >
+              <Link
+                href="/order-tracking"
+                className="hover:text-white transition">
+                Order Tracking
+              </Link>
+            </motion.div>
+            <motion.div
+              whileHover={{ x: 4 }}
+              transition={{ duration: 0.2 }}
+            >
+              <Link href="/contact" className="hover:text-white transition">
+                Contact Us
+              </Link>
+            </motion.div>
           </div>
         </div>
       </div>
@@ -88,7 +123,7 @@ const Footer = () => {
           a better shopping experience.
         </p>
       </div>
-    </footer>
+    </motion.footer>
   );
 };
 

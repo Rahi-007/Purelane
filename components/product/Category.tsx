@@ -27,6 +27,7 @@ const CategoryCard = ({
             src={image}
             alt={name}
             fill
+            sizes="(max-width: 768px) 100vw, 33vw"
             className="object-cover transition duration-700 group-hover:scale-110"
         />
 
@@ -50,7 +51,7 @@ export default function CategoryList() {
         <motion.section
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.15 }}
+            viewport={{ once: false, amount: 0.15 }}
             variants={fadeUp}
             custom={{ y: 40 }}
             className="mx-auto max-w-7xl pb-8 px-1"
@@ -60,17 +61,67 @@ export default function CategoryList() {
             <div className="hidden md:grid md:grid-cols-3 gap-5 h-150">
                 {/* Left */}
                 <div className="grid grid-rows-2 gap-5">
-                    <CategoryCard {...categories[0]} />
-                    <CategoryCard {...categories[1]} />
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: false, amount: 0.1 }}
+                        transition={{
+                            duration: 0.5,
+                            delay: 0.1,
+                        }}
+                    >
+                        <CategoryCard {...categories[0]} />
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: false, amount: 0.1 }}
+                        transition={{
+                            duration: 0.5,
+                            delay: 0.2,
+                        }}
+                    >
+                        <CategoryCard {...categories[1]} />
+                    </motion.div>
                 </div>
 
                 {/* Center */}
-                <CategoryCard {...categories[2]} />
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: false, amount: 0.1 }}
+                    transition={{
+                        duration: 0.5,
+                        delay: 0.1,
+                    }}
+                >
+                    <CategoryCard {...categories[2]} />
+                </motion.div>
 
                 {/* Right */}
                 <div className="grid grid-rows-2 gap-5">
-                    <CategoryCard {...categories[3]} />
-                    <CategoryCard {...categories[4]} />
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: false, amount: 0.1 }}
+                        transition={{
+                            duration: 0.5,
+                            delay: 0.1,
+                        }}
+                    >
+                        <CategoryCard {...categories[3]} />
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: false, amount: 0.1 }}
+                        transition={{
+                            duration: 0.5,
+                            delay: 0.2,
+                        }}
+                    >
+                        <CategoryCard {...categories[4]} />
+                    </motion.div>
                 </div>
             </div>
 
@@ -81,7 +132,7 @@ export default function CategoryList() {
                         key={category.name}
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
+                        viewport={{ once: false, amount: 0.1 }}
                         transition={{
                             duration: 0.5,
                             delay: index * 0.1,

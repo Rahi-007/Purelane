@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import Navbar from "@/components/common/Navbar";
 import Header from "@/components/common/Header";
 import Footer from "@/components/common/Footer";
-import ProductCard from "@/components/product/ProductCard";
+import StoreProductCard from "@/components/product/StoreProductCard";
 import products from "../../data/product.json";
 import {
   Pagination,
@@ -140,7 +140,7 @@ export default function Page() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {currentProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <StoreProductCard key={product.id} product={product} />
             ))}
           </div>
 

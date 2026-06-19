@@ -12,11 +12,10 @@ interface IProps {
 
 const Title = ({ title, link }: IProps) => {
   return (
-    <div className="flex items-center justify-between py-6 px-2 sm:px-0">
+    <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between py-6 px-2 sm:px-0">
       <motion.h2
         {...fadeRightAnimation(30, 0.6)}
-        className="text-2xl sm:text-3xl font-bold text-gray-800 relative inline-block">
-        {/* <h2 > */}
+        className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-800 relative inline-block">
         {title}
         <span className="absolute left-0 -bottom-2 h-1 w-16 bg-cyan-700 rounded-full" />
       </motion.h2>

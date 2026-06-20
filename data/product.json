@@ -436,5 +436,307 @@
       "Feature": "Multiple Flavors To Enjoy: You can freely switch between the warm flavor of chicken, the powerful taste of spicy beef, and the richness of guinea pork tonkotsu broth to satisfy your taste buds in different moods at any time, A Full Source Of Energy: Each packet of ramen is packed with 32 grams of plant-based protein, making it especially suitable for people who need to increase their stamina or maintain a healthy diet. Whether you're a fitness enthusiast or a worker in need of high energy, this ramen is ideal for you, Low Fat And Lower Carb: This ramen is made by air-drying process instead of deep-frying process, which maintains the natural nutrients of the noodles and avoids excess oil and grease. Compared with traditional deep-fried instant noodles, the fat content is significantly lower and has fewer calories, which satisfies your taste buds without worrying about the burden, Instant And Convenient: You can enjoy a bowl of hot ramen in just 5 minutes. If you prefer a softer ramen, we recommend cooking it for a few more minutes. And you can pair it with your favorite ingredients. It is the ideal companion to quench your cravings in your busy daily routine, portable and easy to cook at home or in the office. Please try different seasonings and cooking methods to find your favorite, Premium Quality Ingredients: Plant-based protein with rich, savory broth and high-quality noodles to deliver an authentic and satisfying ramen experience."
     },
     "isFreeShipping": true
+  },
+  {
+    "id": 11,
+    "name": "Konjac Noodle",
+    "variant": "Konjac Noodle Variety Pack -Tom Miso Spicy 6 Packs",
+    "sku": "B0DGQG1C6P",
+    "category": ["Cup Noodles"],
+    "discountPrice": 40.22,
+    "price": 103.11,
+    "review": 9,
+    "narration": "Variety Pack of Asian-Inspired Flavors: Enjoy Four delicious flavors: Tom Yum, Miso, Spicy Kimchi, and Spicy Red Curry. Each cup is bursting with authentic Asian taste and comforting warmt",
+    "image": [
+      "/products/product_11_01.jpg",
+      "/products/product_11_02.jpg",
+      "/products/product_11_03.jpg",
+      "/products/product_11_04.jpg",
+      "/products/product_11_05.jpg",
+      "/products/product_11_06.jpg",
+      "/products/product_11_07.jpg",
+      "/products/product_11_08.jpg"
+    ],
+    "description": {
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "From the brand"
+        },
+         {
+          "type": "images",
+          "image": ["/products/product_01_des_01.jpg"]
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Variety, Spicy Kimchi Flavor",
+      "Size": "5.72 Ounce (Pack of 6)",
+      "Package Dimensions": "10.91 x 8.31 x 4.13 inches; 2.15 Pounds",
+      "ASIN": "B0DGQG1C6P",
+      "Units": "34.32 Ounce",
+      "Best Sellers Rank": "#41 in Shirataki Noodles",
+      "Feature": "Ideal for Meal Prep or Gifting: Features angel hair konjac noodles with a chewy bite and smooth mouthfeel. Great for easy meal planning or thoughtful gifts for health-conscious friends and family."
+    },
+    "isFreeShipping": true
+  },
+  {
+    "id": 12,
+    "name": "Ramen Soup Cup",
+    "variant": "Konjac Noodle Variety Pack -Tom Miso Spicy 6 Packs",
+    "sku": "B0DXPL65DD",
+    "category": ["Cup Noodles"],
+    "discountPrice": 44.55,
+    "price": 98.99,
+    "review": 9,
+    "narration": "About this item 32g Plant Protein per Serving – Fuel your day with a satisfying bowl of high-protein chicken-flavored ramen, packed with 32g of veg",
+    "image": [
+      "/products/product_12_01.jpg",
+      "/products/product_12_02.jpg",
+      "/products/product_12_03.jpg",
+      "/products/product_12_04.jpg",
+      "/products/product_12_05.jpg",
+      "/products/product_12_06.jpg",
+      "/products/product_12_07.jpg",
+      "/products/product_12_08.jpg"
+    ],
+    "description": {
+      "blocks": [
+       {
+          "type": "heading",
+          "text": "About this item"
+        },
+        {
+          "type": "list",
+          "items": [
+            "32g Plant Protein per Serving – Fuel your day with a satisfying bowl of high-protein chicken-flavored ramen, packed with 32g of vegan protein to support a healthy, active lifestyle",
+            "Wholesome & Tasty – Crafted with a rich, savory broth and real vegetable seasoning pack for flavor you’ll love—without compromising your health goals.",
+            "Air-Dried & Non-Fried Noodles – Enjoy ramen the healthier way—our air-dried noodles are low in fat and calories, yet chewy and delicious like traditional ramen",
+            "Quick & Convenient Meal – Ready in just 5 minutes, this instant cup noodle is perfect for busy workdays, post-gym meals, or quick lunches at home or the office",
+            "Clean Ingredients, Guilt-Free Comfort – 100% vegan, low-fat, non-GMO, and made without artificial additives—ideal for vegetarians, fitness fans, and clean eaters"
+          ]
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Chicken Flavor",
+      "Size": "13.12 oz",
+      "Package Dimensions": "11.61 x 8.62 x 3.98 inches; 2 ounces",
+      "ASIN": "B0DXPL65DD",
+      "Units": "6 Count",
+      "Best Sellers Rank": "#59 in Packaged Noodle Dishes",
+      "Feature": "32g Plant Protein per Serving – Fuel your day with a satisfying bowl of high-protein chicken-flavored ramen, packed with 32g of vegan protein to support a healthy, active lifestyle., Wholesome & Tasty – Crafted with a rich, savory broth and real vegetable seasoning pack for flavor you’ll love—without compromising your health goals., Air-Dried & Non-Fried Noodles – Enjoy ramen the healthier way—our air-dried noodles are low in fat and calories, yet chewy and delicious like traditional ramen., Quick & Convenient Meal – Ready in just 5 minutes, this instant cup noodle is perfect for busy workdays, post-gym meals, or quick lunches at home or the office., Clean Ingredients, Guilt-Free Comfort – 100% vegan, low-fat, non-GMO, and made without artificial additives—ideal for vegetarians, fitness fans, and clean eaters."
+    },
+    "isFreeShipping": true
+  },
+  {
+    "id": 13,
+    "name": "Ramen Instant Noodle",
+    "variant": "Protein Ramen Spicy Beef Flavor 6-Pack Instant Noodle Soup",
+    "sku": "B0DXPTNRWM",
+    "category": ["Cup Noodles"],
+    "discountPrice": 69.99,
+    "price": 120.20,
+    "review": 11,
+    "narration": "About this item 32g Plant-Based Protein Per Meal: Get a powerful protein boost with each serving, perfect for post-workout recovery or satisfying meals without the meat. Vegan, Non-GMO & Low Fat: Made with clean ingredients, our ramen is 100% vegan, non-GMO, air-dried—not fried—and contains significantly less fat than regular instant noodles.",
+    "image": [
+      "/products/product_13_01.jpg",
+      "/products/product_13_02.jpg",
+      "/products/product_13_03.jpg",
+      "/products/product_13_04.jpg",
+      "/products/product_13_05.jpg",
+      "/products/product_13_06.jpg",
+      "/products/product_13_07.jpg",
+      "/products/product_13_08.jpg"
+    ],
+    "description": {
+      "blocks": [
+       {
+          "type": "heading",
+          "text": "About this item"
+        },
+        {
+          "type": "list",
+          "items": [
+            "32g Plant-Based Protein Per Meal: Get a powerful protein boost with each serving, perfect for post-workout recovery or satisfying meals without the meat.",
+            "Vegan, Non-GMO & Low Fat: Made with clean ingredients, our ramen is 100% vegan, non-GMO, air-dried—not fried—and contains significantly less fat than regular instant noodles.",
+            "Rich, Spicy Beef-Style Broth: Savory, bold, and satisfying, this beef-flavored broth delivers a spicy kick with deep umami flavor, crafted for flavor lovers.",
+            "Healthier Instant Noodles Alternative: Lower carb and lower fat than traditional ramen, yet just as convenient and delicious—enjoy guilt-free comfort food anytime",
+            "Perfect Texture, Delicious Taste: Our noodles are chewy, firm, and well-balanced in every bite. Customers love the consistency and the hearty, satisfying experience.",
+            "Tips: The longer you steep the ramen, the better the texture and flavor you get"
+          ]
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Spicy Beef, Spicy Curry, Variety, Chicken Flavor, Spicy Kimchi",
+      "Size": "1 Count (Pack of 6), 13.12 oz",
+      "Package Dimensions": "7.99 x 5.16 x 4.6 inches; 1.16 Pounds",
+      "ASIN": "B0DXPTNRWM",
+      "Units": "6 Count",
+      "Best Sellers Rank": "#107 in Packaged Noodle Soups",
+      "Feature": "Tips: The longer you steep the ramen, the better the texture and flavor you get."
+    },
+    "isFreeShipping": true
+  },
+  {
+    "id": 14,
+    "name": "Ramen Spicy Noodle",
+    "variant": "Protein Ramen Spicy Beef Flavor 6-Pack Instant Noodle Soup",
+    "sku": "B0DXPSXPFM",
+    "category": ["Cup Noodles"],
+    "discountPrice": 59.55,
+    "price": 103.20,
+    "review": 1,
+    "narration": "32g Plant-Based Protein Per Cup – Packed with high-quality plant protein to support your active lifestyle, workouts, or healthy diet goals. Bold and Tangy Spicy Kimchi Flavor – Experience authentic kimchi flavor with a savory kick, enhanced by a real vegetable kimchi seasoning pack, spicy broth that delivers deep flavor with every slurp. Fast, Nutritious, and Convenient Meal – Ready in just 5 minutes with hot water.",
+    "image": [
+      "/products/product_14_01.jpg",
+      "/products/product_14_02.jpg",
+      "/products/product_14_03.jpg",
+      "/products/product_14_04.jpg",
+      "/products/product_14_05.jpg",
+      "/products/product_14_06.jpg",
+      "/products/product_14_07.jpg",
+      "/products/product_14_08.jpg"
+    ],
+    "description": {
+      "blocks": [
+       {
+          "type": "heading",
+          "text": "From the brand"
+        },
+        {
+          "type": "image",
+          "image": "/products/product_14_des.jpg"
+        },
+       {
+          "type": "heading",
+          "text": "Hethstia Shirataki Noodles"
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Spicy Kimchi, Variety, Spicy Curry, Chicken, Spicy Beef",
+      "Size": "13.12 oz, 13.26 oz, 13.97 oz",
+      "Package Dimensions": "11.65 x 8.62 x 3.98 inches; 2 ounces",
+      "ASIN": "B0DXPSXPFM",
+      "Units": "6 Count",
+      "Best Sellers Rank": "#59 in Packaged Noodle Dishes",
+      "Feature": "Tips: The longer you steep the ramen, the better the texture and flavor you get."
+    },
+    "isFreeShipping": true
+  },
+  {
+    "id": 15,
+    "name": "Ramen Spicy Soup Noodle",
+    "variant": "Ramen Spicy Kimchi Flavor, 6-Pack Noodle Soup, 32g",
+    "sku": "B0DXPSGPHL",
+    "category": ["Cup Noodles"],
+    "discountPrice": 69.55,
+    "price": 103.34,
+    "review": 12,
+    "narration": "A high-protein, meat-free meal that is designed for those seeking a nutritious, protein-rich meal in a convenient, easy-to-prepare package. Bold Spicy Kimchi Flavor – Enjoy the kimchi in a savory, spicy broth that delivers deep flavor with every slurp",
+    "image": [
+      "/products/product_15_01.jpg",
+      "/products/product_15_02.jpg",
+      "/products/product_15_03.jpg",
+      "/products/product_15_04.jpg",
+      "/products/product_15_05.jpg",
+      "/products/product_15_06.jpg",
+      "/products/product_13_07.jpg",
+      "/products/product_15_08.jpg"
+    ],
+    "description": {
+      "blocks": [
+       {
+          "type": "heading",
+          "text": "About this item"
+        },
+        {
+          "type": "list",
+          "items": [
+            "32g Plant-Based Protein Per Serving – A high-protein, meat-free meal that is designed for those seeking a nutritious, protein-rich meal in a convenient, easy-to-prepare package.",
+            "Bold Spicy Kimchi Flavor – Enjoy the kimchi in a savory, spicy broth that delivers deep flavor with every slurp.",
+            "Non Fried & Low Fat – Our Hethstia high protein ramen noodles are non-fried to preserve taste and texture without the grease. Lower fat than traditional instant ramen, with a healthier profile",
+            "Vegan & Non-GMO Ramen Alternative – Made without dairy, eggs, or animal products. Our noodles are non-fried, for a lighter, cleaner alternative to traditional ramen.",
+            "Steep for Richer Flavor & Texture – Letting the noodles steep longer enhances the broth and creates a chewy, satisfying noodle texture you’ll love.",
+            "5-Minute Wellness: Just add boiling water – perfect for office lunches, dorm meals & camping trips"
+          ]
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Spicy Beef, Spicy Curry, Variety, Chicken Flavor, Spicy Kimchi",
+      "Size": "1 Count (Pack of 6), 13.12 oz",
+      "Package Dimensions": "7.95 x 5.24 x 4.76 inches; 1.08 Pounds",
+      "ASIN": "B0DXPSGPHL",
+      "Units": "6 Count",
+      "Best Sellers Rank": "#107 in Packaged Noodle Soups",
+      "Feature": "5-Minute Wellness: Just add boiling water – perfect for office lunches, dorm meals & camping trips"
+    },
+    "isFreeShipping": true
+  },
+  {
+    "id": 16,
+    "name": "Ramen Spicy Soup Noodle",
+    "variant": "Ramen Spicy Kimchi Flavor, 6-Pack Noodle Soup, 32g",
+    "sku": "B0DXPSGPHL",
+    "category": ["Cup Noodles"],
+    "discountPrice": 69.99,
+    "price": 103.21,
+    "review": 12,
+    "narration": "A high-protein, meat-free meal that is designed for those seeking a nutritious, protein-rich meal in a convenient, easy-to-prepare package. Bold Spicy Kimchi Flavor – Enjoy the kimchi in a savory, spicy broth that delivers deep flavor with every slurp",
+    "image": [
+      "/products/product_16_01.jpg",
+      "/products/product_16_02.jpg",
+      "/products/product_16_03.jpg",
+      "/products/product_16_04.jpg",
+      "/products/product_16_05.jpg",
+      "/products/product_16_06.jpg",
+      "/products/product_13_07.jpg",
+      "/products/product_16_08.jpg"
+    ],
+    "description": {
+      "blocks": [
+       {
+          "type": "heading",
+          "text": "From the brand"
+        },
+        {
+          "type": "image",
+          "image": "/products/product_14_des.jpg"
+        },
+       {
+          "type": "heading",
+          "text": "Hethstia Protein Ramen cup"
+        },
+           {
+          "type": "paragraph",
+          "text": "To deliver a healthy lifestyle with Hethstia from farm to plate for everyone"
+        },
+           {
+          "type": "paragraph",
+          "text": "Hethsia is all about exploring healthier diets with Konjac food and brown rice. Let’s exchange and learn together how to lead a healthier life."
+        },
+        {
+          "type": "heading",
+          "text": "Why Konjac and brown rice?"
+        },
+           {
+          "type": "paragraph",
+          "text": "The natural benefits of konjac food (e.g. gluten-free, low carb, low calorie, high in fiber, diabetic friendly etc) and brown rice (e.g. organic ingredients, gluten-free, low fat, low carb) help to make a healthy lifestyle accessible to everyone. With over 30 years of experience in this field, Hethsia has expertise in food and knowledge of konjac and brown rice."
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Spicy Beef, Spicy Curry, Variety, Chicken Flavor, Spicy Kimchi",
+      "Size": "1 Count (Pack of 6), 13.12 oz",
+      "Package Dimensions": "7.99 x 5.2 x 4.72 inches; 1.15 Pounds",
+      "ASIN": "B0DXPRD2MH",
+      "Units": "6 Count",
+      "Best Sellers Rank": "#107 in Packaged Noodle Soups",
+      "Feature": "Tip for the Perfect Texture: Steep your noodles longer for even better flavor and a chewy, satisfying bite that customers love."
+    },
+    "isFreeShipping": true
   }
 ]

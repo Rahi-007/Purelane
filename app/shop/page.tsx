@@ -43,7 +43,7 @@ const ITEMS_PER_PAGE = 21;
 
 export default function Page() {
   const [selectedCategory, setSelectedCategory] = useState("All");
-  const [maxPrice, setMaxPrice] = useState(500);
+  const [maxPrice, setMaxPrice] = useState(200);
   const [currentPage, setCurrentPage] = useState(1);
   const [openFilter, setOpenFilter] = useState(false);
 
@@ -92,14 +92,14 @@ export default function Page() {
         {/* ================= FILTER ================= */}
         <div className={`w-full md:w-1/4 border p-4 rounded-lg h-fit md:sticky md:top-20
           ${openFilter ? "block" : "hidden md:block"}`}>
-          <h2 className="font-bold mb-3">Top Categories</h2>
+          <h2 className="font-bold mb-4">Top Categories</h2>
 
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col justify-start gap-2">
             <button
               onClick={() => setSelectedCategory("All")}
-              className={`p-2 rounded ${selectedCategory === "All"
-                ? "bg-black text-white"
-                : "bg-gray-100"
+              className={`p-1 text-left rounded ${selectedCategory === "All"
+                ? "bg-gray-100 text-[#07484a]"
+                : "text-gray-400"
                 }`}
             >
               All
@@ -109,9 +109,9 @@ export default function Page() {
               <button
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}
-                className={`p-2 rounded ${selectedCategory === cat
-                  ? "bg-black text-white"
-                  : "bg-gray-100"
+                className={`p-1 text-left rounded ${selectedCategory === cat
+                  ? "bg-gray-100 text-[#07484a]"
+                  : "text-gray-400"
                   }`}
               >
                 {cat}
@@ -125,10 +125,10 @@ export default function Page() {
             <input
               type="range"
               min="0"
-              max="500"
+              max="200"
               value={maxPrice}
               onChange={(e) => setMaxPrice(Number(e.target.value))}
-              className="w-full accent-black cursor-pointer"
+              className="w-full accent-[#07484a] cursor-pointer"
             />
 
             <p className="mt-2">Up to: ${maxPrice}</p>
@@ -138,7 +138,7 @@ export default function Page() {
         {/* ================= PRODUCTS ================= */}
         <div className="w-full md:w-3/4">
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:lg:grid-cols-4 gap-4">
             {currentProducts.map((product) => (
               <StoreProductCard key={product.id} product={product} />
             ))}

@@ -17,14 +17,14 @@ const Title = ({ title, link }: IProps) => {
         {...fadeRightAnimation(30, 0.6)}
         className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-800 relative inline-block">
         {title}
-        <span className="absolute left-0 -bottom-2 h-1 w-16 bg-cyan-700 rounded-full" />
+        <span className="absolute left-0 -bottom-2 h-1 w-16 bg-[#07484a] rounded-full" />
       </motion.h2>
 
       {link && (
         <motion.div {...fadeLeftAnimation(-30, 0.6)}>
           <Link
             href="/"
-            className="group flex items-center gap-2 text-cyan-700 font-medium hover:text-cyan-900 transition"
+            className="group flex items-center gap-2 text-[#07484a] font-medium hover:text-[#043f41] transition"
           >
             See More
             <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />

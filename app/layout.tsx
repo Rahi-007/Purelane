@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
-import { Nunito_Sans, Pacifico } from "next/font/google";
+import { Inter, Pacifico } from "next/font/google";
 import "./globals.css";
 
-const lato = Nunito_Sans({
+const inter = Inter({
   subsets: ["latin"],
-  weight: ["300", "400", "700", "900"],
-  style: ["normal", "italic"],
-  variable: "--font-nunito-sans",
+  weight: ["400", "500", "700", "900"],
+  variable: "--font-inter",
 });
 
 const pacifico = Pacifico({
@@ -27,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${lato.className} ${pacifico.variable} antialiased`}
+        className={`${inter.className} ${pacifico.variable} antialiased`}
       >
         {children}
       </body>

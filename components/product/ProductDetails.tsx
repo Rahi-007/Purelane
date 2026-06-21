@@ -10,6 +10,7 @@ interface ProductDetailsProps {
 
 const ProductDetails = ({ product }: ProductDetailsProps) => {
   const [quantity, setQuantity] = useState(1);
+  const [added, setAdded] = useState(false);
 
   const increaseQty = () => {
     setQuantity((prev) => prev + 1);
@@ -20,8 +21,34 @@ const ProductDetails = ({ product }: ProductDetailsProps) => {
   };
 
   const HandleAddToCart = () => {
-    console.log("Item Added")
+    const cartItem = {
+      id: product.id,
+      quantity,
+    };
+
+    const existingCart = JSON.parse(
+      localStorage.getItem("cart") || "[]"
+    );
+
+    const existingProduct = existingCart.find(
+      (item: { id: number; quantity: number }) =>
+        item.id === product.id
+    );
+
+    if (existingProduct) {
+      existingProduct.quantity += quantity;
+    } else {
+      existingCart.push(cartItem);
+    }
+
+    localStorage.setItem("cart", JSON.stringify(existingCart));
+    setAdded(true);
+
+    setTimeout(() => {
+      setAdded(false);
+    }, 2000);
   };
+
   return (
     <div>
       <h1 className="text-2xl sm:text-4xl font-bold">
@@ -67,12 +94,11 @@ const ProductDetails = ({ product }: ProductDetailsProps) => {
             +
           </button>
 
-          <button className="bg-black text-white px-8 py-2 rounded-lg" onClick={HandleAddToCart}>
-            Add To Cart
-          </button>
-
-          <button className="hidden md:block border px-8 py-2 rounded-lg">
-            Buy Now
+          <button
+            className="bg-black text-white px-8 py-2 rounded-lg"
+            onClick={HandleAddToCart}
+          >
+            {added ? "Added ✓" : "Add To Cart"}
           </button>
         </div>
       </div>

@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 const Footer = () => {
   return (
     <motion.footer
-      initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
       viewport={{ once: false, amount: 0.1 }}
       transition={{ duration: 0.6 }}
       className="bg-black text-white"

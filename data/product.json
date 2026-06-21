@@ -152,16 +152,13 @@
       "/products/product_04_04.jpg",
       "/products/product_04_05.jpg",
       "/products/product_04_06.jpg",
-      "/products/product_04_07.jpg"
+      "/products/product_03_08.jpg"
     ],
     "description": {
       "blocks": [
         {
-          "type": "images",
-          "image": [
-            "/products/product_04_des_01.jpg",
-            "/products/product_04_des_02.jpg"
-          ]
+          "type": "image",
+          "image": "/products/product_01_des_01.jpg"
         }
       ]
     },
@@ -289,12 +286,12 @@
     "narration": "",
     "image": [
       "/products/product_07_01.jpg",
-      "/products/product_07_02.jpg",
+      "/products/product_04_02.jpg",
       "/products/product_07_03.jpg",
       "/products/product_07_04.jpg",
       "/products/product_07_05.jpg",
       "/products/product_07_06.jpg",
-      "/products/product_07_07.jpg"
+      "/products/product_03_08.jpg"
     ],
     "description": {
       "blocks": [
@@ -338,7 +335,7 @@
       "blocks": [
         {
           "type": "image",
-          "image": "/products/product_01_des.jpg"
+          "image": "/products/product_01_des_01.jpg"
         }
       ]
     },
@@ -369,14 +366,14 @@
       "/products/product_09_03.jpg",
       "/products/product_09_04.jpg",
       "/products/product_09_05.jpg",
-      "/products/product_09_06.jpg",
+      "/products/product_01_07.jpg",
       "/products/product_09_07.jpg"
     ],
     "description": {
       "blocks": [
         {
           "type": "image",
-          "image": "/products/product_01_des.jpg"
+          "image": "/products/product_08_des_01.jpg"
         },
         {
           "type": "paragraph",
@@ -413,10 +410,10 @@
       "/products/product_10_01.jpg",
       "/products/product_10_02.jpg",
       "/products/product_10_03.jpg",
-      "/products/product_10_04.jpg",
+      "/products/product_07_01.jpg",
       "/products/product_10_05.jpg",
       "/products/product_10_06.jpg",
-      "/products/product_10_07.jpg"
+      "/products/product_03_08.jpg"
     ],
     "description": {
       "blocks": [
@@ -546,7 +543,7 @@
       "/products/product_13_04.jpg",
       "/products/product_13_05.jpg",
       "/products/product_13_06.jpg",
-      "/products/product_13_07.jpg",
+      "/products/product_01_07.jpg",
       "/products/product_13_08.jpg"
     ],
     "description": {
@@ -607,7 +604,7 @@
         },
         {
           "type": "image",
-          "image": "/products/product_14_des.jpg"
+          "image": "/products/product_08_des_01.jpg"
         },
        {
           "type": "heading",
@@ -644,7 +641,7 @@
       "/products/product_15_05.jpg",
       "/products/product_15_06.jpg",
       "/products/product_13_07.jpg",
-      "/products/product_15_08.jpg"
+      "/products/product_01_07.jpg"
     ],
     "description": {
       "blocks": [

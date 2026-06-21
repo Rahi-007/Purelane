@@ -18,7 +18,7 @@ export default function Page() {
         whileInView="visible"
         viewport={{ once: false, amount: 0.1 }}
         variants={fadeUp}
-        custom={{ y: 40 }}
+        custom={{ y: 30 }}
         className="px-4 py-20 mx-auto max-w-7xl"
       >
         <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 gap-4 ">

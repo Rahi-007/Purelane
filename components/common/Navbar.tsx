@@ -18,6 +18,7 @@ const Navbar = ({ gap = false }: IProps) => {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [cartOpen, setCartOpen] = useState(false);
+  const [remove, setRemove] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const top = gap ? "sm:top-12" : "sm:top-14";
 
@@ -54,6 +55,25 @@ const Navbar = ({ gap = false }: IProps) => {
       localStorage.getItem("cart") || "[]"
     );
   });
+
+  const HandleRemoveFromCart = (productId: number) => {
+    const existingCart = JSON.parse(
+      localStorage.getItem("cart") || "[]"
+    );
+
+    const updatedCart = existingCart.filter(
+      (item: { id: number; quantity: number }) =>
+        item.id !== productId
+    );
+
+    localStorage.setItem("cart", JSON.stringify(updatedCart));
+    setRemove(true);
+
+    setTimeout(() => {
+      setCartOpen(false);
+      setRemove(false);
+    }, 2000);
+  };
 
   return (
     <div
@@ -183,12 +203,12 @@ const Navbar = ({ gap = false }: IProps) => {
                 className="fixed top-0 right-0 h-screen w-[320px] bg-white z-50 shadow-xl p-4"
               >
                 <div className="flex items-center justify-between border-b pb-4">
-                  <h2 className="font-semibold text-lg">
+                  <h2 className="font-semibold text-lg text-[#07484a]">
                     Cart
                   </h2>
 
                   <X
-                    className="cursor-pointer"
+                    className="cursor-pointer text-[#07484a]"
                     onClick={() => setCartOpen(false)}
                   />
                 </div>
@@ -208,7 +228,7 @@ const Navbar = ({ gap = false }: IProps) => {
                         <div
                           key={item.id}
                           onClick={() => router.push(`/shop/${item.id}`)}
-                          className="flex items-start gap-3 border-b py-3 cursor-pointer"
+                          className="flex items-start gap-3 border-b py-3 cursor-pointer relative"
                         >
                           <Image
                             src={product.image[0]}
@@ -219,16 +239,25 @@ const Navbar = ({ gap = false }: IProps) => {
                           />
 
                           <div>
-                            <h3 className="font-medium">
+                            <h3 className="font-medium text-[#07484a]">
                               {product.name}
                             </h3>
-                            <p>Qty: {item.quantity}</p>
-                            <p>
+                            <p className="text-[#07484a]">Qty: {item.quantity}</p>
+                            <p className="text-[#07484a]">
                               $
                               {(product.discountPrice *
                                 item.quantity).toFixed(2)}
                             </p>
                           </div>
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              HandleRemoveFromCart(product.id);
+                            }}
+                            className="bg-red-500 text-white absolute bottom-2 right-1 border rounded-full px-2 py-1 text-xs cursor-pointer z-1"
+                          >
+                            {remove ? "Removed ✓" : "Remove"}
+                          </button>
                         </div>
                       );
                     })

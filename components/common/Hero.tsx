@@ -10,6 +10,11 @@ const images = [
   "/products/product_03_des_04.jpg",
   "/products/product_03_des_05.jpg",
 ];
+const mobileImages = [
+  "/products/product_03_03.jpg",
+  "/products/product_10_05.jpg",
+  "/products/product_11_03.jpg",
+];
 
 const Hero = () => {
   const [current, setCurrent] = useState(0);
@@ -48,7 +53,7 @@ const Hero = () => {
               className="hidden sm:block sm:object-cover"
             />
             <Image
-              src="/products/product_03_07.jpg"
+              src={mobileImages[current]}
               alt="Hero Image"
               fill
               priority

@@ -3,6 +3,7 @@
 import Rating from "./Rating";
 import { useState } from "react";
 import { Product } from "./Tabs";
+import { Gift, Package, Truck } from "lucide-react";
 
 interface ProductDetailsProps {
   product: Product;
@@ -11,6 +12,27 @@ interface ProductDetailsProps {
 const ProductDetails = ({ product }: ProductDetailsProps) => {
   const [quantity, setQuantity] = useState(1);
   const [added, setAdded] = useState(false);
+
+  const items = [
+    {
+      icon: Truck,
+      title: "Free Shipping",
+      description: "On all U.S. orders over $100",
+      link: "Learn more.",
+    },
+    {
+      icon: Package,
+      title: "Easy Returns",
+      description: "Extended returns through January 31.",
+      link: "Returns Details.",
+    },
+    {
+      icon: Gift,
+      title: "Send It As A Gift",
+      description:
+        "Add a free personalized note during checkout.",
+    },
+  ];
 
   const increaseQty = () => {
     setQuantity((prev) => prev + 1);
@@ -107,6 +129,41 @@ const ProductDetails = ({ product }: ProductDetailsProps) => {
       <div className="mt-8 border-t pt-2 text-sm text-gray-600 flex justify-between">
         <p>SKU: {product.sku}</p>
         <p>Category: {product.category.join(", ")}</p>
+      </div>
+      <div className="hidden md:block border-b border-gray-200 py-5 space-y-6">
+        {items.map((item, index) => {
+          const Icon = item.icon;
+
+          return (
+            <div
+              key={index}
+              className="flex items-start gap-5"
+            >
+              <div className="shrink-0">
+                <Icon
+                  size={44}
+                  strokeWidth={1.5}
+                  className="text-black"
+                />
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-semibold text-black">
+                  {item.title}
+                </h3>
+
+                <p className="mt-1 text-lg text-gray-700">
+                  {item.description}{" "}
+                  {item.link && (
+                    <span className="underline cursor-pointer">
+                      {item.link}
+                    </span>
+                  )}
+                </p>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

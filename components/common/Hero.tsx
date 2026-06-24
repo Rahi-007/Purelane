@@ -6,9 +6,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
 const images = [
-  "/products/product_03_des_03.jpg",
   "/products/product_03_des_04.jpg",
-  "/products/product_03_des_05.jpg",
+  "/products/product_03_des_03.jpg",
+  "/products/product_03_des_02.jpg",
 ];
 const mobileImages = [
   "/products/product_03_03.jpg",
@@ -59,7 +59,7 @@ const Hero = () => {
               priority
               className="object-contain sm:hidden"
             />
-            </motion.div>
+          </motion.div>
         </AnimatePresence>
 
         {/* DARK OVERLAY */}

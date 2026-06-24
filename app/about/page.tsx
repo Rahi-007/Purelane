@@ -7,7 +7,7 @@ export default function Page() {
     <div>
       <Header />
       <Navbar gap={true} />
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-gray-100 px-6">
+      <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-slate-50 to-gray-100 px-6">
         <div className="text-center max-w-xl">
           <div className="mb-6">
             <span className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-black text-white text-3xl">

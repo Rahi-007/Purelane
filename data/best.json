@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "name": "High Protein",
+    "variant": "High Protein (32g) Instant Ramen Noodles Spicy Beef",
+    "sku": "B0D9N9JTG6",
+    "category": ["Chicken Noodle"],
+    "discountPrice": 40.22,
+    "price": 103.0,
+    "review": 20,
+    "narration": "Low Fat And Lower Carb: This ramen is made by air-drying process instead of deep-frying process, which maintains the natural nutrients of the noodles and avoids excess oil and grease. Compared with traditional deep-fried instant noodles",
+    "image": [
+      "/products/product_01_01.jpg",
+      "/products/product_01_02.jpg",
+      "/products/product_01_03.jpg",
+      "/products/product_01_04.jpg",
+      "/products/product_01_05.jpg",
+      "/products/product_01_06.jpg",
+      "/products/product_01_07.jpg"
+    ],
+    "description": {
+      "blocks": [
+        {
+          "type": "images",
+          "image": ["/products/product_01_des_01.jpg"]
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Beef, Chicken, Variety, Pork Tonkotsu",
+      "Size": "2.19 Ounce (Pack of 8)",
+      "Package Dimensions": "8.9 x 5.28 x 4.65 inches; 1.1 Pounds",
+      "ASIN": "B0D9N9JTG6",
+      "Units": "17.52 Fluid Ounces",
+      "Best Sellers Rank": "#51 in Packaged Noodle Dishes",
+      "Feature": "Healthy Diet & Holiday Gifts: A thoughtful gift for health-conscious friends and family, especially during the holiday season. Support their healthy diet with a tasty and versatile food option."
+    },
+    "isFreeShipping": true
+  },
+
+  {
+    "id": 6,
+    "name": "Condensed Chicken Noodle Soup",
+    "variant": "Condensed Chicken Noodle Soup, 10.75 Ounce Can (Pack of 4)",
+    "sku": "B009LJO3X6",
+    "category": ["Beef Noodles", " Chicken Noodle"],
+    "discountPrice": 17.22,
+    "price": 29.99,
+    "review": 10,
+    "narration": "Four (4) 10.75 oz cans of Campbell’s Condensed Chicken Noodle Soup. Soul-warming chicken soup crafted with perfectly seasoned golden chicken broth, egg noodles, and tender chicken meat with no antibiotics",
+    "image": [
+      "/products/product_06_01.jpg",
+      "/products/product_06_02.jpg",
+      "/products/product_06_03.jpg",
+      "/products/product_06_04.jpg",
+      "/products/product_06_05.jpg",
+      "/products/product_06_06.jpg",
+      "/products/product_06_07.jpg"
+    ],
+    "description": {
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Product Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cozy up with a steamy bowl of Campbell’s Condensed Chicken Noodle Soup. A family favorite for generations, this delicious chicken soup is crafted with perfectly seasoned golden chicken broth, egg noodles, and tender chicken meat with no antibiotics. The result is a canned chicken noodle soup that brings a smile with every spoonful. Top it with Pepperidge Farm Golden Butter Crackers, season it with fresh herbs, or pair it with a sandwich or salad for something quick and easy. This convenient canned soup is a year-round pantry staple and the perfect comfort food on a chilly day or when you’re feeling under the weather. Simply mix the condensed soup with 1 can of water and microwave on high for 2.5 to 3 minutes in a covered microwave-safe bowl, or heat in a pot on the stove, stirring occasionally. Each 10.75 oz recyclable can contains about 2.5 servings of microwave soup and features a non-BPA lining. From Chicken Noodle to Cream of Mushroom and everything in between, Campbell’s makes delicious soups in flavors your family knows and loves, with quality, farm-grown ingredients in every can. M’m! M’m! Good!"
+        },
+        {
+          "type": "heading",
+          "text": "From the Manufacturer"
+        },
+        {
+          "type": "paragraph",
+          "text": "Campbell’s Condensed Chicken Noodle Soup warms the soul and has earned its place in the pantry as a family favorite. Join Campbell’s in the kitchen by customizing our soup with fresh herbs or croutons, or pair it with crackers, salad, or a sandwich. We perfectly season our golden chicken broth and add in fresh egg noodles and roasted chicken meat raised without antibiotics. The end result is a soul-warming chicken noodle soup that brings a smile with every spoonful. Made with honest, high-quality ingredients like egg noodles, this canned soup is a crowd pleaser and makes for the perfect addition to your weeknight family dinner that everyone will love. This trusted staple is the start to a great meal. M’m! M’m! Good! From Chicken Noodle to Tomato and everything in between, Campbell’s makes delicious soups with quality, farm-grown ingredients in flavors you and your family know and love. Whether Campbell’s Condensed canned soups are the start of great recipes or you want to simmer down with the perfect bowl, we have a soup that everyone can enjoy."
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Chicken Noodle",
+      "Size": "10.75 Ounce (Pack of 4), 15.48 Ounce (Pack of 8), 10.75 Ounce (Pack of 8), 15.4 Ounce (Pack of 1)",
+      "Package Dimensions": "4.8 x 4.8 x 3.4 inches; 2.65 Pounds",
+      "ASIN": "B009LJO3X6",
+      "Units": "43.0 Ounce",
+      "Best Sellers Rank": "#2 in Packaged Chicken Soups",
+      "Feature": "Each 10.75 oz recyclable can contains about 2.5 servings of microwave soup and features a non-BPA lining"
+    },
+    "isFreeShipping": true
+  },
+  {
+    "id": 10,
+    "name": "Ramen Soup Cup",
+    "variant": "Instant Ramen Soup Cup Variety Flavor Chicken Spicy Beef",
+    "sku": "B0D9N751G4",
+    "category": ["Beef Noodles"],
+    "discountPrice": 39.36,
+    "price": 53.11,
+    "review": 10,
+    "narration": "Multiple Flavors To Enjoy: You can freely switch between the warm flavor of chicken, the powerful taste of spicy beef, and the richness of guinea pork tonkotsu broth to satisfy your taste buds in different moods at any time, A Full Source Of Energy: Each packet of ramen is packed with 32 grams of plant-based protein",
+    "image": [
+      "/products/product_10_01.jpg",
+      "/products/product_10_02.jpg",
+      "/products/product_10_03.jpg",
+      "/products/product_07_01.jpg",
+      "/products/product_10_05.jpg",
+      "/products/product_10_06.jpg",
+      "/products/product_03_08.jpg"
+    ],
+    "description": {
+      "blocks": [
+        {
+          "type": "image",
+          "image": "/products/product_01_des_01.jpg"
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Beef Flavor",
+      "Size": "2.19 Ounce (Pack of 6)",
+      "Package Dimensions": "11.61 x 8.66 x 3.9 inches; 13.14 ounces",
+      "ASIN": "B0D9M3BY43",
+      "Units": "13.14 Ounce",
+      "Best Sellers Rank": "#145 in Packaged Noodle Soups",
+      "Feature": "Multiple Flavors To Enjoy: You can freely switch between the warm flavor of chicken, the powerful taste of spicy beef, and the richness of guinea pork tonkotsu broth to satisfy your taste buds in different moods at any time, A Full Source Of Energy: Each packet of ramen is packed with 32 grams of plant-based protein, making it especially suitable for people who need to increase their stamina or maintain a healthy diet. Whether you're a fitness enthusiast or a worker in need of high energy, this ramen is ideal for you, Low Fat And Lower Carb: This ramen is made by air-drying process instead of deep-frying process, which maintains the natural nutrients of the noodles and avoids excess oil and grease. Compared with traditional deep-fried instant noodles, the fat content is significantly lower and has fewer calories, which satisfies your taste buds without worrying about the burden, Instant And Convenient: You can enjoy a bowl of hot ramen in just 5 minutes. If you prefer a softer ramen, we recommend cooking it for a few more minutes. And you can pair it with your favorite ingredients. It is the ideal companion to quench your cravings in your busy daily routine, portable and easy to cook at home or in the office. Please try different seasonings and cooking methods to find your favorite, Premium Quality Ingredients: Plant-based protein with rich, savory broth and high-quality noodles to deliver an authentic and satisfying ramen experience."
+    },
+    "isFreeShipping": true
+  },
+
+  {
+    "id": 11,
+    "name": "Konjac Noodle",
+    "variant": "Konjac Noodle Variety Pack -Tom Miso Spicy 6 Packs",
+    "sku": "B0DGQG1C6P",
+    "category": ["Cup Noodles"],
+    "discountPrice": 40.22,
+    "price": 103.11,
+    "review": 9,
+    "narration": "Variety Pack of Asian-Inspired Flavors: Enjoy Four delicious flavors: Tom Yum, Miso, Spicy Kimchi, and Spicy Red Curry. Each cup is bursting with authentic Asian taste and comforting warmt",
+    "image": [
+      "/products/product_11_01.jpg",
+      "/products/product_11_02.jpg",
+      "/products/product_11_03.jpg",
+      "/products/product_11_04.jpg",
+      "/products/product_11_05.jpg",
+      "/products/product_11_06.jpg",
+      "/products/product_11_07.jpg",
+      "/products/product_11_08.jpg"
+    ],
+    "description": {
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "From the brand"
+        },
+        {
+          "type": "images",
+          "image": ["/products/product_01_des_01.jpg"]
+        }
+      ]
+    },
+    "additionalInfo": {
+      "Flavor Name": "Variety, Spicy Kimchi Flavor",
+      "Size": "5.72 Ounce (Pack of 6)",
+      "Package Dimensions": "10.91 x 8.31 x 4.13 inches; 2.15 Pounds",
+      "ASIN": "B0DGQG1C6P",
+      "Units": "34.32 Ounce",
+      "Best Sellers Rank": "#41 in Shirataki Noodles",
+      "Feature": "Ideal for Meal Prep or Gifting: Features angel hair konjac noodles with a chewy bite and smooth mouthfeel. Great for easy meal planning or thoughtful gifts for health-conscious friends and family."
+    },
+    "isFreeShipping": true
+  }
+]

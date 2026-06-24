@@ -4,7 +4,7 @@
     "name": "High Protein",
     "variant": "High Protein (32g) Instant Ramen Noodles Spicy Beef",
     "sku": "B0D9N9JTG6",
-    "category": ["Uncategorized"],
+    "category": ["Chicken Noodle"],
     "discountPrice": 40.22,
     "price": 103.0,
     "review": 20,
@@ -102,7 +102,6 @@
     "image": [
       "/products/product_03_01.jpg",
       "/products/product_03_02.jpg",
-      "/products/product_03_03.jpg",
       "/products/product_03_03.jpg",
       "/products/product_03_04.jpg",
       "/products/product_03_05.jpg",
@@ -283,7 +282,7 @@
     "discountPrice": 49.55,
     "price": 79.36,
     "review": 10,
-    "narration": "",
+    "narration": "Multiple Flavors To Enjoy: You can freely switch between the warm flavor of chicken, the powerful taste of spicy beef, and the richness of guinea pork tonkotsu broth to satisfy your taste buds in different moods at any time, A Full Source Of Energy: Each packet of ramen is packed with 32 grams of plant-based protein,            ",
     "image": [
       "/products/product_07_01.jpg",
       "/products/product_04_02.jpg",
@@ -297,7 +296,7 @@
       "blocks": [
         {
           "type": "image",
-          "image": "/products/product_01_des.jpg"
+          "image": "/products/product_01_des_01.jpg"
         }
       ]
     },
@@ -382,7 +381,7 @@
         {
           "type": "paragraph",
           "text": "Today, people are paying more attention to their health, especially when faced with different sub-health issues like obesity or diabetes, so we offer a wide variety of healthy and natural food products that are produced from our sustainable plant base from farm to plate, currently reaching over 50 countries worldwide"
-      }
+        }
       ]
     },
     "additionalInfo": {
@@ -419,7 +418,7 @@
       "blocks": [
         {
           "type": "image",
-          "image": "/products/product_01_des.jpg"
+          "image": "/products/product_01_des_01.jpg"
         }
       ]
     },
@@ -460,7 +459,7 @@
           "type": "heading",
           "text": "From the brand"
         },
-         {
+        {
           "type": "images",
           "image": ["/products/product_01_des_01.jpg"]
         }
@@ -499,7 +498,7 @@
     ],
     "description": {
       "blocks": [
-       {
+        {
           "type": "heading",
           "text": "About this item"
         },
@@ -533,7 +532,7 @@
     "sku": "B0DXPTNRWM",
     "category": ["Cup Noodles"],
     "discountPrice": 69.99,
-    "price": 120.20,
+    "price": 120.2,
     "review": 11,
     "narration": "About this item 32g Plant-Based Protein Per Meal: Get a powerful protein boost with each serving, perfect for post-workout recovery or satisfying meals without the meat. Vegan, Non-GMO & Low Fat: Made with clean ingredients, our ramen is 100% vegan, non-GMO, air-dried—not fried—and contains significantly less fat than regular instant noodles.",
     "image": [
@@ -548,7 +547,7 @@
     ],
     "description": {
       "blocks": [
-       {
+        {
           "type": "heading",
           "text": "About this item"
         },
@@ -583,7 +582,7 @@
     "sku": "B0DXPSXPFM",
     "category": ["Cup Noodles"],
     "discountPrice": 59.55,
-    "price": 103.20,
+    "price": 103.2,
     "review": 1,
     "narration": "32g Plant-Based Protein Per Cup – Packed with high-quality plant protein to support your active lifestyle, workouts, or healthy diet goals. Bold and Tangy Spicy Kimchi Flavor – Experience authentic kimchi flavor with a savory kick, enhanced by a real vegetable kimchi seasoning pack, spicy broth that delivers deep flavor with every slurp. Fast, Nutritious, and Convenient Meal – Ready in just 5 minutes with hot water.",
     "image": [
@@ -598,7 +597,7 @@
     ],
     "description": {
       "blocks": [
-       {
+        {
           "type": "heading",
           "text": "From the brand"
         },
@@ -606,7 +605,7 @@
           "type": "image",
           "image": "/products/product_08_des_01.jpg"
         },
-       {
+        {
           "type": "heading",
           "text": "Hethstia Shirataki Noodles"
         }
@@ -645,7 +644,7 @@
     ],
     "description": {
       "blocks": [
-       {
+        {
           "type": "heading",
           "text": "About this item"
         },
@@ -695,23 +694,23 @@
     ],
     "description": {
       "blocks": [
-       {
+        {
           "type": "heading",
           "text": "From the brand"
         },
         {
           "type": "image",
-          "image": "/products/product_14_des.jpg"
+          "image": "/products/product_08_des_01.jpg"
         },
-       {
+        {
           "type": "heading",
           "text": "Hethstia Protein Ramen cup"
         },
-           {
+        {
           "type": "paragraph",
           "text": "To deliver a healthy lifestyle with Hethstia from farm to plate for everyone"
         },
-           {
+        {
           "type": "paragraph",
           "text": "Hethsia is all about exploring healthier diets with Konjac food and brown rice. Let’s exchange and learn together how to lead a healthier life."
         },
@@ -719,7 +718,7 @@
           "type": "heading",
           "text": "Why Konjac and brown rice?"
         },
-           {
+        {
           "type": "paragraph",
           "text": "The natural benefits of konjac food (e.g. gluten-free, low carb, low calorie, high in fiber, diabetic friendly etc) and brown rice (e.g. organic ingredients, gluten-free, low fat, low carb) help to make a healthy lifestyle accessible to everyone. With over 30 years of experience in this field, Hethsia has expertise in food and knowledge of konjac and brown rice."
         }

@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { fadeUp } from "@/lib/motion.utils";
 
 const BestBuy = () => {
-  const selectedIds = [1, 7, 8, 10];
+  const selectedIds = [1, 13, 8, 10];
   return (
     <motion.div
       initial="hidden"

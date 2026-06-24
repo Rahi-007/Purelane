@@ -71,7 +71,7 @@ const Footer = () => {
               transition={{ duration: 0.2 }}
             >
               <Link
-                href="/shipping-policy"
+                href="/policy"
                 className="hover:text-white transition">
                 Shipping Policy
               </Link>
@@ -80,7 +80,7 @@ const Footer = () => {
               whileHover={{ x: 4 }}
               transition={{ duration: 0.2 }}
             >
-              <Link href="/refund-policy" className="hover:text-white transition">
+              <Link href="/policy" className="hover:text-white transition">
                 Refund & Returns Policy
               </Link>
             </motion.div>
@@ -90,7 +90,7 @@ const Footer = () => {
               transition={{ duration: 0.2 }}
             >
               <Link
-                href="/privacy-policy"
+                href="/policy"
                 className="hover:text-white transition">
                 Privacy Policy
               </Link>
@@ -100,7 +100,7 @@ const Footer = () => {
               transition={{ duration: 0.2 }}
             >
               <Link
-                href="/order-tracking"
+                href="/policy"
                 className="hover:text-white transition">
                 Order Tracking
               </Link>

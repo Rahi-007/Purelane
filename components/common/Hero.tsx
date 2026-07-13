@@ -50,7 +50,7 @@ const Hero = () => {
               alt="Hero Image"
               fill
               priority
-              className="hidden sm:block sm:object-cover"
+              className="hidden sm:block sm:object-cover brightness-90"
             />
             <Image
               src={mobileImages[current]}

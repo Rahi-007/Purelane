@@ -45,7 +45,7 @@ export default function BenefitsSection() {
                     }}
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: false, amount: 0.1 }}
+                    viewport={{ once: true, amount: 0.1 }}
                     className="grid gap-10 md:grid-cols-3"
                 >
                     {benefits.map((item, index) => {

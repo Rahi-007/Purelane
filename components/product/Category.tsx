@@ -54,7 +54,7 @@ export default function CategoryList() {
         <motion.section
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: false, amount: 0.15 }}
+            viewport={{ once: true, amount: 0.15 }}
             variants={fadeUp}
             custom={{ y: 40 }}
             className="mx-auto max-w-7xl pb-8 px-1"
@@ -67,7 +67,7 @@ export default function CategoryList() {
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: false, amount: 0.1 }}
+                        viewport={{ once: true, amount: 0.1 }}
                         transition={{
                             duration: 0.5,
                             delay: 0.1,
@@ -78,7 +78,7 @@ export default function CategoryList() {
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: false, amount: 0.1 }}
+                        viewport={{ once: true, amount: 0.1 }}
                         transition={{
                             duration: 0.5,
                             delay: 0.2,
@@ -92,7 +92,7 @@ export default function CategoryList() {
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: false, amount: 0.1 }}
+                    viewport={{ once: true, amount: 0.1 }}
                     transition={{
                         duration: 0.5,
                         delay: 0.1,
@@ -106,7 +106,7 @@ export default function CategoryList() {
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: false, amount: 0.1 }}
+                        viewport={{ once: true, amount: 0.1 }}
                         transition={{
                             duration: 0.5,
                             delay: 0.1,
@@ -117,7 +117,7 @@ export default function CategoryList() {
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: false, amount: 0.1 }}
+                        viewport={{ once: true, amount: 0.1 }}
                         transition={{
                             duration: 0.5,
                             delay: 0.2,
@@ -135,7 +135,7 @@ export default function CategoryList() {
                         key={category.name}
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: false, amount: 0.1 }}
+                        viewport={{ once: true, amount: 0.1 }}
                         transition={{
                             duration: 0.5,
                             delay: index * 0.1,

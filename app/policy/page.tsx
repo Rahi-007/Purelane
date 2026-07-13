@@ -14,7 +14,7 @@ export default function Page() {
             <motion.div
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: false, amount: 0.1 }}
+                viewport={{ once: true, amount: 0.1 }}
                 variants={fadeUp}
                 custom={{ y: 30 }}
                 className="px-4 py-20 mx-auto max-w-7xl"

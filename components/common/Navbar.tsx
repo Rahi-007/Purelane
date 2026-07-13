@@ -35,7 +35,7 @@ const Navbar = ({ gap = false }: IProps) => {
     { label: "Best Buy", link: "/best" },
     { label: "Shop Now", link: "/shop" },
     { label: "Contact Us", link: "/contact" },
-    { label: "About Us", link: "/about" },
+    { label: "About Us", link: "/policy" },
   ];
 
   const loadCart = () => {

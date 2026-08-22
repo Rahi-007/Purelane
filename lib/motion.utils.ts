@@ -1,3 +1,5 @@
+import { Variants } from "framer-motion";
+
 //W---------={ Reusable fadeUp animation function }=----------</br>
 export const fadeUpAnimation = (y = 0, duration = 0, delay = 0) => ({
   initial: { opacity: 0, y },
@@ -60,4 +62,22 @@ export const imageZoom = {
     scale: 1.05,
     transition: { duration: 0.3 },
   },
+};
+
+// Generic scroll-reveal variant.
+// Usage: <motion.div variants={fadeUp} custom={{ y: 30, delay: 0 }} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.1 }} />
+export const fadeUp2: Variants = {
+  hidden: (custom?: { y?: number; delay?: number }) => ({
+    opacity: 0,
+    y: custom?.y ?? 24,
+  }),
+  visible: (custom?: { y?: number; delay?: number }) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.6,
+      delay: custom?.delay ?? 0,
+      ease: [0.22, 1, 0.36, 1],
+    },
+  }),
 };
